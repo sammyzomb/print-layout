@@ -1,0 +1,62 @@
+/* CMN16C 列印樣式表（自動產生，請勿手改；改 print-layout.css 後重跑 build-print-css.mjs） */
+/* tca-print v3 (lean) */
+@media print {
+    @page{margin:12mm 14mm;size:A4}
+    html,body{overflow:visible!important;background:#fff!important;font-size:10pt;height:auto!important}
+    body>table,#header,#footer,#sidebar,#index-float-btn,#sidebar-share-btn,#travel-newsletter,#pnote,.breadcrumb,#print-select,.slider-wrap,.departure,.wrap>.top,#travelview .main>.head,.head,a.favorite,.toolsbar,#feature h4.h4,#feature>.h4,.feature>h4.h4,#special,#map,#flight,#schedule,#remark,#information,.dvline,#travel-print>.top,#travel-print>.head,#travel-print>.description,#travel-print>.banner,#travel-print .section>.ti{display:none!important}
+    #travelview,#travelview .container,#travelview .main,#travelview .wrap,#feature,#feature .content,#travel-print,#travel-print .section,#travel-print .inner{padding:0!important;margin:0!important;max-width:none!important;width:100%!important;background:#fff!important;border:none!important;box-shadow:none!important;overflow:visible!important}
+    #ma-r{
+        overflow:visible!important;font-size:10pt;line-height:1.55;margin:0!important;width:100%!important;max-width:none!important;
+        &,.c-sn.ma-atm,.ma-band-d,.ma-band-l,.ma-band-sea{background:#fff!important;color:#2c2418!important}
+        *{animation:none!important;box-shadow:none!important;text-shadow:none!important;transition:none!important;opacity:1!important;transform:none!important;visibility:visible!important}
+        .ma-ld,.x-h-cta,.x-hv,.x-hveil,.c-her::after,.ma-cta .ma-btn-row,figure.u-fw+figure.u-fw,.u-lo::after,.c-sn.ma-atm::before,.c-quote--pull::before,.c-quote--pull::after,.ma-rail-chip::after{display:none!important}
+        .c-cn{max-width:100%!important;padding-inline:0!important}
+        .c-her{break-before:page;break-after:page;min-height:0!important;height:auto!important;padding:10mm 5mm!important;background:#fff!important;border:2px solid #b87a2a;display:block!important}
+        .c-her::before{content:"航向世界旅遊 · 鄉野旅行社";display:block;text-align:center;font-size:8.5pt;letter-spacing:.24em;color:#8a5a18;margin-bottom:1.25rem}
+        .x-hctn{min-height:0!important;padding:0!important;text-align:center;max-width:none!important}
+        .x-hmeta{color:#8a5a18!important;font-size:8.5pt!important;letter-spacing:.22em;margin:0 0 .75rem!important}
+        .x-htt{color:#2e2418!important;font-size:20pt!important;line-height:1.35!important;max-width:none!important}
+        .ma-pro{break-before:page;border:1px solid #ccc!important;padding:5mm 6mm!important;margin:0!important;background:#fff!important}
+        .ma-pro::before{content:"› 行程特色";display:block;font-size:11pt;font-weight:700;color:#333;padding-bottom:3mm;margin-bottom:3mm;border-bottom:1px solid #ddd}
+        .ma-pro .ma-route{background:#faf8f2;border:1px solid #e8dcc8;border-top:2px solid #b87a2a!important}
+        section.c-sn[aria-labelledby]{break-before:page;border-top:none!important;padding-top:.35rem!important}
+        section.c-sn[aria-labelledby]>.c-cn>.c-kk{padding-bottom:.35rem;margin-bottom:.5rem!important;border-bottom:1px solid #e8dcc8}
+        .ma-cta{break-before:page;border-top:2px solid #b87a2a!important;padding:1.1rem 0!important;background:#faf8f2!important}
+        .ma-cta .c-h2{text-align:center!important}
+        .ma-cta .c-bd::after{content:" · 諮詢：www.tcawg.com/travel/contact-us.html";display:block;margin-top:.35rem;font-size:8pt;color:#666}
+        figure.u-fw{margin:.65rem 0 .5rem!important;padding:0!important;border:1px solid #e0d6c8;background:#faf8f2!important;break-inside:avoid;width:100%!important}
+        .u-fw,figure{aspect-ratio:auto!important;height:auto!important;overflow:visible!important;break-inside:avoid}
+        .u-g2,.u-g3{display:grid!important;gap:.4rem!important;width:100%!important;break-inside:avoid-page}
+        .u-g3{grid-template-columns:repeat(3,1fr)!important}
+        .u-g2{grid-template-columns:repeat(2,1fr)!important;gap:.5rem!important}
+        .ma-lit-frame,.u-lo{display:block!important;aspect-ratio:auto!important;width:auto!important;max-width:100%!important;height:auto!important;min-height:0!important;overflow:visible!important;padding:.4rem .3rem .3rem!important;background:#f6f6f6!important;break-inside:avoid}
+        .u-row.p-an:not(.u-g2):not(.u-g3){display:grid!important;grid-template-columns:34% 1fr!important;gap:.6rem!important;align-items:start!important;break-inside:auto}
+        .u-row.p-an:not(.u-g2):not(.u-g3)>.u-lf{order:1;width:100%!important;max-width:100%!important;margin:0!important;break-inside:avoid}
+        .u-row.p-an:not(.u-g2):not(.u-g3)>div:not(.u-lf):not(.ma-lit-copy){order:2;border:1px solid #ddd!important;border-left:2px solid #b87a2a!important;padding:.45rem .55rem!important;background:#fff!important}
+        .u-row.p-an:not(.u-g2):not(.u-g3)>.ma-lit-copy{order:2}
+        .u-lc{margin-top:.3rem!important;font-size:7.5pt!important;color:#666!important;text-align:center!important}
+        img{display:block!important;position:static!important;width:auto!important;height:auto!important;min-width:0!important;min-height:0!important;max-width:100%!important;object-fit:contain!important;object-position:center center!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+        figure.u-fw img{width:100%!important;max-height:132px!important;object-fit:cover!important}
+        .ma-food-logo{width:auto!important;max-width:100px!important;max-height:40px!important;background:#f5f5f5!important}
+        .u-g3 .u-lo img{width:100%!important;max-height:108px!important}
+        .u-g2 .u-lo img{width:100%!important;max-height:168px!important}
+        .ma-lit-frame img,.u-row:not(.u-g2):not(.u-g3) .u-lo img{width:100%!important;max-height:210px!important}
+        .u-fw-c{position:static!important;display:block!important;margin:0!important;padding:.35rem .5rem!important;font-size:8pt!important;color:#5c4a32!important;text-align:center!important;background:#f3e8d4!important}
+        .c-kk{font-size:8pt!important;color:#8a5a18!important;margin-bottom:.25rem!important}
+        .c-h2,.c-h3,.c-h4{break-after:avoid;color:#2e2418!important}
+        .c-h2{font-size:14pt!important;line-height:1.3!important;margin-bottom:.45rem!important;text-align:left!important}
+        .c-h3{font-size:11pt!important;margin-bottom:.3rem!important}
+        .c-h4{font-size:10pt!important;margin-top:.55rem!important;border-left-width:2px!important}
+        .c-bd,.c-cap,.ma-band-d .c-bd,.ma-band-sea .c-bd{font-size:9.5pt!important;line-height:1.58!important;color:#333!important;max-width:none!important}
+        .c-quote,.c-quote--pull,.ma-band-sea .ma-lit-copy{background:#fff!important;border-left:2px solid #b87a2a!important;color:#2c2418!important;font-size:10pt!important;margin:.65rem 0!important;padding:.35rem 0 .35rem .75rem!important;text-align:left!important;break-inside:avoid}
+        .ma-rail{padding:.55rem 0!important;break-inside:avoid;border-top:none}
+        .ma-rail-list{grid-template-columns:repeat(4,1fr)!important;gap:.3rem!important;padding-inline:0!important}
+        .ma-rail-chip{padding:.3rem .2rem!important;font-size:7.5pt!important;border:1px solid #e0d6c8!important;background:#faf8f2!important;color:#333!important}
+        .ma-route{display:grid!important;grid-template-columns:repeat(6,1fr)!important;gap:.2rem!important;margin-top:.65rem!important;padding-top:.55rem!important;border-top:1px solid #ccc!important;break-inside:avoid}
+        .ma-route b{font-size:7pt!important}
+        .ma-route span{font-size:8pt!important}
+        .c-sn{padding-block:.85rem 1rem!important;border-top:1px solid #e0e0e0;break-inside:auto}
+        .c-sn:first-of-type{border-top:none}
+        a{color:#2c2418!important;text-decoration:none}
+    }
+}
