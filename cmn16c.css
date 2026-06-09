@@ -11,7 +11,7 @@
         *{animation:none!important;box-shadow:none!important;text-shadow:none!important;transition:none!important;opacity:1!important;transform:none!important;visibility:visible!important}
         .ma-ld,.x-h-cta,.x-hv,.x-hveil,.c-her::after,.ma-cta .ma-btn-row,figure.u-fw+figure.u-fw,.u-lo::after,.c-sn.ma-atm::before,.c-quote--pull::before,.c-quote--pull::after,.ma-rail-chip::after{display:none!important}
         .c-cn{max-width:100%!important;padding-inline:0!important}
-        .c-her{break-before:page;break-after:page;min-height:0!important;height:auto!important;padding:10mm 5mm!important;background:#fff!important;border:2px solid #b87a2a;display:block!important}
+        .c-her{break-before:avoid!important;break-after:page;min-height:0!important;height:auto!important;padding:10mm 5mm!important;background:#fff!important;border:2px solid #b87a2a;display:block!important}
         .c-her::before{content:"航向世界旅遊 · 鄉野旅行社";display:block;text-align:center;font-size:8.5pt;letter-spacing:.24em;color:#8a5a18;margin-bottom:1.25rem}
         .x-hctn{min-height:0!important;padding:0!important;text-align:center;max-width:none!important}
         .x-hmeta{color:#8a5a18!important;font-size:8.5pt!important;letter-spacing:.22em;margin:0 0 .75rem!important}
