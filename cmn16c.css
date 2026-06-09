@@ -11,19 +11,21 @@
         *{animation:none!important;box-shadow:none!important;text-shadow:none!important;transition:none!important;opacity:1!important;transform:none!important;visibility:visible!important}
         .ma-ld,.x-h-cta,.x-hv,.x-hveil,.c-her::after,.ma-cta .ma-btn-row,figure.u-fw+figure.u-fw,.u-lo::after,.c-sn.ma-atm::before,.c-quote--pull::before,.c-quote--pull::after,.ma-rail-chip::after{display:none!important}
         .c-cn{max-width:100%!important;padding-inline:0!important}
-        .c-her{break-before:avoid!important;break-after:page;min-height:0!important;height:auto!important;padding:10mm 5mm!important;background:#fff!important;border:2px solid #b87a2a;display:block!important}
-        .c-her::before{content:"航向世界旅遊 · 鄉野旅行社";display:block;text-align:center;font-size:8.5pt;letter-spacing:.24em;color:#8a5a18;margin-bottom:6mm}
-        .x-pcov{display:block!important;width:100%!important;height:auto!important;max-height:135mm!important;object-fit:cover!important;margin:0 0 8mm!important;border:1px solid #d8cdb8!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-        .x-hctn{min-height:0!important;padding:0!important;text-align:center;max-width:none!important}
-        .x-hmeta{color:#8a5a18!important;font-size:8.5pt!important;letter-spacing:.22em;margin:0 0 .75rem!important}
-        .x-htt{color:#2e2418!important;font-size:20pt!important;line-height:1.35!important;max-width:none!important}
-        .x-hsub{color:#5c564e!important;font-size:12pt!important;line-height:1.5!important;margin:.5rem auto 0!important;max-width:none!important}
-        .ma-pro{break-before:page;border:1px solid #ccc!important;padding:5mm 6mm!important;margin:0!important;background:#fff!important}
+        .c-her{break-before:avoid!important;break-after:page;position:relative!important;min-height:0!important;height:auto!important;padding:8mm 8mm 0!important;background:#fff!important;border:none!important;display:block!important}
+        .c-her::before{display:none!important}
+        .x-plogo{display:block!important;width:46mm!important;height:auto!important;margin:0 0 5mm!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+        .x-pcov{display:block!important;width:100%!important;height:215mm!important;object-fit:cover!important;margin:0!important;border:none!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+        .x-hctn{position:absolute!important;left:0;right:0;bottom:16mm;padding:0 16mm!important;text-align:center;z-index:2;min-height:0!important;max-width:none!important}
+        .x-hmeta{color:#fff!important;font-size:10pt!important;letter-spacing:.22em;margin:0 0 2mm!important;text-shadow:0 1px 3px rgba(0,0,0,.95),0 2px 10px rgba(0,0,0,.85)!important}
+        .x-htt{color:#fff!important;font-size:26pt!important;line-height:1.3!important;max-width:none!important;text-shadow:0 1px 3px rgba(0,0,0,.98),0 3px 16px rgba(0,0,0,.9)!important}
+        .x-hsub{color:#fff!important;font-size:13pt!important;line-height:1.45!important;margin:3mm auto 0!important;max-width:none!important;text-shadow:0 1px 3px rgba(0,0,0,.95),0 2px 10px rgba(0,0,0,.85)!important}
+        .ma-pro{border:1px solid #ccc!important;padding:5mm 6mm!important;margin:0 0 4mm!important;background:#fff!important}
         .ma-pro::before{content:"› 行程特色";display:block;font-size:11pt;font-weight:700;color:#333;padding-bottom:3mm;margin-bottom:3mm;border-bottom:1px solid #ddd}
         .ma-pro .ma-route{background:#faf8f2;border:1px solid #e8dcc8;border-top:2px solid #b87a2a!important}
-        section.c-sn[aria-labelledby]{break-before:page;border-top:none!important;padding-top:.35rem!important}
+        section.c-sn[aria-labelledby]{border-top:none!important;padding-top:.35rem!important;margin-top:5mm!important}
+        section.c-sn[aria-labelledby]>.c-cn>.c-kk{break-after:avoid!important}
         section.c-sn[aria-labelledby]>.c-cn>.c-kk{padding-bottom:.35rem;margin-bottom:.5rem!important;border-bottom:1px solid #e8dcc8}
-        .ma-cta{break-before:page;border-top:2px solid #b87a2a!important;padding:1.1rem 0!important;background:#faf8f2!important}
+        .ma-cta{break-inside:avoid;border-top:2px solid #b87a2a!important;margin-top:6mm!important;padding:1.1rem 0!important;background:#faf8f2!important}
         .ma-cta .c-h2{text-align:center!important}
         .ma-cta .c-bd::after{content:" · 諮詢：www.tcawg.com/travel/contact-us.html";display:block;margin-top:.35rem;font-size:8pt;color:#666}
         figure.u-fw{margin:.65rem 0 .5rem!important;padding:0!important;border:1px solid #e0d6c8;background:#faf8f2!important;break-inside:avoid;width:100%!important}
@@ -49,7 +51,7 @@
         .c-h2{font-size:16pt!important;line-height:1.3!important;margin-bottom:.45rem!important;text-align:left!important}
         .c-h3{font-size:14pt!important;margin-bottom:.3rem!important}
         .c-h4{font-size:13pt!important;margin-top:.55rem!important;border-left-width:2px!important}
-        .c-bd,.c-cap,.ma-band-d .c-bd,.ma-band-sea .c-bd{font-size:12pt!important;line-height:1.6!important;color:#333!important;max-width:none!important}
+        .c-bd,.c-cap,.ma-band-d .c-bd,.ma-band-sea .c-bd{font-size:12pt!important;line-height:1.6!important;color:#333!important;max-width:none!important;orphans:2;widows:2}
         .c-quote,.c-quote--pull,.ma-band-sea .ma-lit-copy{background:#fff!important;border-left:2px solid #b87a2a!important;color:#2c2418!important;font-size:12pt!important;line-height:1.6!important;margin:.65rem 0!important;padding:.35rem 0 .35rem .75rem!important;text-align:left!important;break-inside:avoid}
         .ma-rail{padding:.55rem 0!important;break-inside:avoid;border-top:none}
         .ma-rail-list{grid-template-columns:repeat(4,1fr)!important;gap:.3rem!important;padding-inline:0!important}
