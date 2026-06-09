@@ -16,6 +16,7 @@
         .x-hctn{min-height:0!important;padding:0!important;text-align:center;max-width:none!important}
         .x-hmeta{color:#8a5a18!important;font-size:8.5pt!important;letter-spacing:.22em;margin:0 0 .75rem!important}
         .x-htt{color:#2e2418!important;font-size:20pt!important;line-height:1.35!important;max-width:none!important}
+        .x-hsub{color:#5c564e!important;font-size:12pt!important;line-height:1.5!important;margin:.5rem auto 0!important;max-width:none!important}
         .ma-pro{break-before:page;border:1px solid #ccc!important;padding:5mm 6mm!important;margin:0!important;background:#fff!important}
         .ma-pro::before{content:"› 行程特色";display:block;font-size:11pt;font-weight:700;color:#333;padding-bottom:3mm;margin-bottom:3mm;border-bottom:1px solid #ddd}
         .ma-pro .ma-route{background:#faf8f2;border:1px solid #e8dcc8;border-top:2px solid #b87a2a!important}
