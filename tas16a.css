@@ -31,7 +31,7 @@
     #ca-p .ca-section,#ca-p .c-sn{padding-block:4mm 5mm!important;border-top:1px solid #e0e6ef;break-inside:auto;page-break-inside:auto}
     #ca-p .c-sd,#ca-p section.ca-story-vol.c-sd,#ca-p section.c-sd#ca-story-uz,#ca-p section.c-sd#ca-story-tj,#ca-p section.c-sd#ca-story-kz{background:#fff!important;color:#1f2937!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
     #ca-p section.ca-story-vol.c-sd .c-bd,#ca-p section.ca-story-vol.c-sd .c-h3,#ca-p .c-sd .c-bd,#ca-p .c-sd .c-h2,#ca-p .c-sd .c-h3{color:#333!important}
-    #ca-p section.ca-story-vol .u-sg.u-sd,#ca-p section.ca-story-vol .u-sg:not(.u-sd){position:relative!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#fff!important;background-image:none!important;min-height:16mm!important;aspect-ratio:2400/400!important;padding:2mm 4mm!important;border:none!important;box-shadow:none!important;overflow:visible!important;break-inside:avoid!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    #ca-p section.ca-story-vol .u-sg.u-sd,#ca-p section.ca-story-vol .u-sg:not(.u-sd){position:relative!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#fff!important;background-image:none!important;aspect-ratio:auto!important;min-height:0!important;height:22mm!important;max-height:24mm!important;margin:0 0 1.5mm!important;padding:1.5mm 3mm!important;border:none!important;box-shadow:none!important;overflow:hidden!important;break-inside:avoid!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
     #ca-p #ca-story-uz .u-sg.u-sd,#ca-p #ca-story-tj .u-sg.u-sd,#ca-p #ca-story-kz .u-sg.u-sd{background:#00112b!important}
     #ca-p .x-pfrm{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:fill!important;z-index:0!important;pointer-events:none!important;margin:0!important;padding:0!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
     #ca-p .u-sg .u-tm{position:relative!important;z-index:1!important;width:100%!important;margin:0!important}
@@ -42,10 +42,10 @@
     #ca-p #ca-story-uz .u-sg.u-sd .u-tl,#ca-p #ca-story-tj .u-sg.u-sd .u-tl,#ca-p #ca-story-kz .u-sg.u-sd .u-tl{color:#ccdbf1!important}
     #ca-p #ca-story-tm .u-sg:not(.u-sd) .u-tl,#ca-p #ca-story-kg .u-sg:not(.u-sd) .u-tl{color:#3c5a78!important}
     #ca-p .c-sd .i-rl .i-xs,#ca-p .c-sd .i-rl .i-xsd,#ca-p .i-xsd{color:#f4f8ff!important}
-    #ca-p .c-sd .i-rl{border-top-color:rgba(214,225,243,.35)!important;border-bottom-color:rgba(214,225,243,.35)!important}
+    #ca-p .c-sd .i-rl{margin:-1mm 0 2.5mm!important;padding:1.2mm 0!important;background:#00112b!important;border-top-color:rgba(214,225,243,.35)!important;border-bottom-color:rgba(214,225,243,.35)!important}
     #ca-p .u-sg .u-ts,#ca-p #ca-story-uz .u-sg.u-sd .u-ts,#ca-p #ca-story-tj .u-sg.u-sd .u-ts,#ca-p #ca-story-kz .u-sg.u-sd .u-ts,#ca-p #ca-story-tm .u-sg:not(.u-sd) .u-ts,#ca-p #ca-story-kg .u-sg:not(.u-sd) .u-ts{font-size:22pt!important;line-height:1.1!important;letter-spacing:.04em!important;white-space:nowrap!important}
     #ca-p .i-rl .i-xs,#ca-p .i-rl .i-xsd{font-size:22pt!important;line-height:1.1!important;letter-spacing:.04em!important;white-space:nowrap!important;margin:0!important}
-    #ca-p .i-rl{margin:.75rem 0 1rem!important;padding:.65rem 0!important;border-top:1px solid #d8e0ea!important;border-bottom:1px solid #d8e0ea!important;text-align:center!important;break-inside:avoid!important}
+    #ca-p .i-rl{margin:0 0 2.5mm!important;padding:1.2mm 0!important;border-top:1px solid #d8e0ea!important;border-bottom:1px solid #d8e0ea!important;text-align:center!important;break-inside:avoid!important}
     #ca-p .c-sd .u-gf,#ca-p #ca-story-tj .u-gf,#ca-p #ca-story-kg .u-gf{background:#f4f6fa!important}
     #ca-p .z-fw,#ca-p .z-fi{background:#fff!important}
     #ca-p .u-sg .u-ts,#ca-p .u-sg .u-tl{text-shadow:none!important}
@@ -67,13 +67,19 @@
     #ca-p .ca-impact-xl,#ca-p .i-xl{font-size:14pt!important;color:#0f1725!important;text-shadow:none!important}
     #ca-p .i-su{font-size:12pt!important;color:#333!important;text-shadow:none!important}
     #ca-p .ca-title,#ca-p h1.c-tt,#ca-p .ca-hero-stack__copy .ca-title{font-size:20pt!important;line-height:1.25!important;color:#0f1725!important;text-shadow:none!important;margin-bottom:.35rem!important}
-    #ca-p .u-lo,#ca-p .p-ho{display:block!important;aspect-ratio:auto!important;overflow:visible!important;break-inside:avoid;page-break-inside:avoid}
-    #ca-p .u-lo img{max-height:210px!important;width:100%!important;object-fit:cover!important}
+    #ca-p .u-lo,#ca-p .p-ho{display:block!important;aspect-ratio:auto!important;overflow:visible!important;min-height:0!important;height:auto!important;break-inside:auto!important;page-break-inside:auto!important;margin:0 0 3mm!important}
+    #ca-p .u-lo{display:grid!important;grid-template-columns:1fr 1fr!important;gap:4mm!important;align-items:start!important}
+    #ca-p .p-fw,#ca-p .u-lo .p-fw,#ca-p .u-lo .p-ho{min-height:0!important;height:auto!important;max-height:none!important;margin:0!important;padding:0!important;border-radius:0!important}
+    #ca-p .u-lo img,#ca-p .p-ho img{position:static!important;inset:auto!important;max-height:52mm!important;width:100%!important;height:auto!important;margin:0!important;transform:none!important;object-fit:cover!important}
     #ca-p .u-g2{display:grid!important;grid-template-columns:1fr 1fr!important;gap:.5rem!important;break-inside:avoid-page}
     #ca-p .u-g3{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:.4rem!important;break-inside:avoid-page}
     #ca-p .u-g2 .u-lo img{max-height:168px!important}
     #ca-p .u-g3 .u-lo img{max-height:108px!important}
-    #ca-p figure.u-fw,#ca-p .z-fw{margin:.65rem 0!important;break-inside:avoid}
+    #ca-p figure.u-fw,#ca-p .z-fw{margin:2mm 0!important;padding:0!important;break-inside:avoid}
+    #ca-p .z-fwc{padding:1mm 0 2mm!important}
+    #ca-p .u-g{margin:2mm 0 3mm!important;min-height:0!important}
+    #ca-p .u-gf{aspect-ratio:auto!important;min-height:0!important;height:auto!important}
+    #ca-p .u-gf img{max-height:40mm!important;width:100%!important;height:auto!important}
     #ca-p figure.u-fw+figure.u-fw,#ca-p .z-fw+.z-fw{display:none!important}
     #ca-p .u-lc,#ca-p .u-gc{font-size:7.5pt!important;color:#666!important;text-align:center!important}
     #ca-p .ca-tail,#ca-p footer{break-inside:avoid;padding-top:4mm!important}
