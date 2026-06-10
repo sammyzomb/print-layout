@@ -54,7 +54,7 @@
     #ca-p .ca-h2,#ca-p .c-h2{font-size:16pt!important;line-height:1.3!important;color:#0f1725!important;break-after:avoid;margin-bottom:.45rem!important}
     #ca-p .ca-h3,#ca-p .c-h3{font-size:13pt!important;break-after:avoid;color:#0f1725!important}
     #ca-p .ca-body,#ca-p .c-bd,#ca-p .ca-epic-desc,#ca-p .e-de{font-size:11pt!important;line-height:1.62!important;color:#333!important;max-width:none!important;orphans:2;widows:2}
-    #ca-p .ca-open-book,#ca-p .m-ob{font-size:11pt!important;line-height:1.65!important;border-left:2px solid #c2a56f!important;padding-left:.75rem!important;background:#fff!important}
+    #ca-p .ca-open-book,#ca-p .m-ob{font-size:12pt!important;line-height:1.65!important;border-left:2px solid #c2a56f!important;margin:0 0 3mm 6mm!important;padding:.5mm 0 .5mm 2em!important;background:#fff!important}
     #ca-p .ca-epic-grid,#ca-p .e-gr{display:block!important;width:100%!important;left:auto!important;transform:none!important;overflow:visible!important}
     #ca-p .ca-epic-card,#ca-p .e-ca{width:100%!important;max-width:none!important;margin:0 0 .75rem!important;padding:.65rem .75rem!important;border:1px solid #d8e0ea!important;background:#f4f6fa!important;break-inside:avoid;page-break-inside:avoid}
     #ca-p .ca-epic-title,#ca-p .e-ti{font-size:10pt!important;color:#3c5a78!important;margin-bottom:.25rem!important}
