@@ -12,7 +12,8 @@
     #ca-p *{animation:none!important;box-shadow:none!important;transition:none!important}
     #ca-p .ca-text-pop,#ca-p .ca-scroll-fade,#ca-p .ca-story-chapter .ca-animate-lines p,#ca-p .ca-scroll-fade .ca-h2,#ca-p .ca-scroll-fade .ca-impact-xl,#ca-p .ca-scroll-fade .ca-impact-sub,#ca-p .x-sf,#ca-p .x-sc .p-an p,#ca-p .x-tp{opacity:1!important;transform:none!important;filter:none!important;visibility:visible!important;letter-spacing:inherit!important}
     #ca-p .ca-hero-countries-row [data-ca-country-line],#ca-p .ca-hero-lead-block .ca-hero-lead-line,#ca-p [data-ca-country-line],#ca-p [data-ca-lead-line]{opacity:1!important;transform:none!important}
-    #ca-p .ca-hero-pattern,#ca-p .ca-fw-cine__grain,#ca-p .ca-hero-stack__shade,#ca-p .x-hpt,#ca-p .x-hsd,#ca-p .v-sl,#ca-p iframe,#ca-p #ca-yt-hover,#ca-p .z-rb-tag,#ca-p .x-hsx,#ca-p .x-h-cta,#ca-p .x-hv,#ca-p .x-hveil,#ca-p .c-her::after{display:none!important}
+    #ca-p .ca-hero-pattern,#ca-p .ca-fw-cine__grain,#ca-p .ca-hero-stack__shade,#ca-p .x-hpt,#ca-p .x-hsd,#ca-p .v-sl,#ca-p .v-fr,#ca-p iframe,#ca-p #ca-yt-hover,#ca-p .z-rb-tag,#ca-p .x-hsx,#ca-p .x-h-cta,#ca-p .x-hv,#ca-p .x-hveil,#ca-p .c-her::after{display:none!important}
+    #ca-p section[aria-label="旅程預告影片"]{display:none!important;height:0!important;min-height:0!important;margin:0!important;padding:0!important;overflow:hidden!important;break-before:auto!important;break-after:auto!important}
     #ca-p .c-her{break-before:avoid!important;break-after:page;box-sizing:border-box!important;display:flex!important;flex-direction:column;min-height:255mm!important;height:auto!important;padding:8mm 6mm 6mm!important;background:#fff!important;border:none!important}
     #ca-p .c-her::before{display:none!important}
     #ca-p .x-pfoot{display:block!important;position:fixed!important;left:0;right:0;bottom:3mm;text-align:center;font-size:8pt!important;letter-spacing:.06em;color:#3c5a78!important;background:#fff!important;border-top:1px solid #d8e0ea!important;padding:1.5mm 0 0!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
@@ -30,10 +31,18 @@
     #ca-p .ca-section,#ca-p .c-sn{padding-block:4mm 5mm!important;border-top:1px solid #e0e6ef;break-inside:auto;page-break-inside:auto}
     #ca-p .c-sd,#ca-p section.ca-story-vol.c-sd,#ca-p section.c-sd#ca-story-uz,#ca-p section.c-sd#ca-story-tj,#ca-p section.c-sd#ca-story-kz{background:#fff!important;color:#1f2937!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
     #ca-p section.ca-story-vol.c-sd .c-bd,#ca-p section.ca-story-vol.c-sd .c-h3,#ca-p .c-sd .c-bd,#ca-p .c-sd .c-h2,#ca-p .c-sd .c-h3{color:#333!important}
-    #ca-p section.ca-story-vol .u-sg.u-sd,#ca-p section.ca-story-vol .u-sg:not(.u-sd){background:#fff!important;background-image:none!important;min-height:0!important;aspect-ratio:auto!important;padding:.5rem 0!important;border:none!important;box-shadow:none!important}
-    #ca-p section#ca-story-tm,#ca-p section#ca-story-kg,#ca-p section#ca-story-tm .u-sg:not(.u-sd),#ca-p section#ca-story-kg .u-sg:not(.u-sd){background:#fff!important;background-image:none!important}
+    #ca-p section.ca-story-vol .u-sg.u-sd,#ca-p section.ca-story-vol .u-sg:not(.u-sd){background-color:#fff!important;background-repeat:no-repeat!important;background-position:center!important;background-size:contain!important;min-height:16mm!important;aspect-ratio:2400/400!important;padding:2mm 4mm!important;border:1px solid #3c5a78!important;box-shadow:none!important;break-inside:avoid!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    #ca-p #ca-story-uz .u-sg.u-sd{background-image:url(https://www.tcawg.com/data/images/202605/Casia/l1.png)!important}
+    #ca-p #ca-story-tj .u-sg.u-sd{background-image:url(https://www.tcawg.com/data/images/202605/Casia/l6.png)!important}
+    #ca-p #ca-story-kz .u-sg.u-sd{background-image:url(https://www.tcawg.com/data/images/202605/Casia/l3.png)!important}
+    #ca-p #ca-story-tm .u-sg:not(.u-sd){background-image:url(https://www.tcawg.com/data/images/202605/Casia/l2.png)!important}
+    #ca-p #ca-story-kg .u-sg:not(.u-sd){background-image:url(https://www.tcawg.com/data/images/202605/Casia/l4.png)!important}
+    #ca-p section#ca-story-tm,#ca-p section#ca-story-kg{background:#fff!important}
     #ca-p .c-sd .c-kk,#ca-p .c-sd .u-gc,#ca-p .u-sd .u-tl{color:#3c5a78!important}
     #ca-p .u-sd .u-ts,#ca-p .u-ts,#ca-p .i-xsd,#ca-p .c-sd .i-rl .i-xs{color:#0f1725!important;text-shadow:none!important}
+    #ca-p .u-sg .u-ts,#ca-p #ca-story-uz .u-sg.u-sd .u-ts,#ca-p #ca-story-tj .u-sg.u-sd .u-ts,#ca-p #ca-story-kz .u-sg.u-sd .u-ts,#ca-p #ca-story-tm .u-sg:not(.u-sd) .u-ts,#ca-p #ca-story-kg .u-sg:not(.u-sd) .u-ts{font-size:22pt!important;line-height:1.1!important;letter-spacing:.04em!important;white-space:nowrap!important}
+    #ca-p .i-rl .i-xs,#ca-p .i-rl .i-xsd{font-size:22pt!important;line-height:1.1!important;letter-spacing:.04em!important;white-space:nowrap!important;margin:0!important}
+    #ca-p .i-rl{margin:.75rem 0 1rem!important;padding:.65rem 0!important;border-top:1px solid #d8e0ea!important;border-bottom:1px solid #d8e0ea!important;text-align:center!important;break-inside:avoid!important}
     #ca-p .c-sd .u-gf,#ca-p #ca-story-tj .u-gf,#ca-p #ca-story-kg .u-gf{background:#f4f6fa!important}
     #ca-p .z-fw,#ca-p .z-fi{background:#fff!important}
     #ca-p .u-sg .u-ts,#ca-p .u-sg .u-tl{color:inherit!important;text-shadow:none!important}
@@ -53,6 +62,7 @@
     #ca-p .ca-fw-cine__copy,#ca-p .z-fwc{position:relative!important;padding:.5rem!important}
     #ca-p .ca-impact-stack,#ca-p .i-sk{backdrop-filter:none!important;background:transparent!important;border:none!important}
     #ca-p .ca-impact-xl,#ca-p .i-xl{font-size:14pt!important;color:#0f1725!important;text-shadow:none!important}
+    #ca-p .i-su{font-size:12pt!important;color:#333!important;text-shadow:none!important}
     #ca-p .ca-title,#ca-p h1.c-tt,#ca-p .ca-hero-stack__copy .ca-title{font-size:20pt!important;line-height:1.25!important;color:#0f1725!important;text-shadow:none!important;margin-bottom:.35rem!important}
     #ca-p .u-lo,#ca-p .p-ho{display:block!important;aspect-ratio:auto!important;overflow:visible!important;break-inside:avoid;page-break-inside:avoid}
     #ca-p .u-lo img{max-height:210px!important;width:100%!important;object-fit:cover!important}
@@ -77,6 +87,11 @@
     #travel-print .schedule .day-info,#travel-print .schedule .day-info p,#travel-print .schedule .day-info span,#travel-print .schedule .day-info strong,#travel-print .schedule .day-info b,#travel-print .schedule .day-info h3,#travel-print .schedule .day-info h4{font-size:10.5pt!important;line-height:1.52!important;color:#333!important;font-family:"Microsoft JhengHei",Arial,sans-serif!important}
     #travel-print .schedule .day-info [style*="color"]{color:#333!important}
     #travel-print .schedule .day-info [style*="font-size"]{font-size:10.5pt!important}
+    #travel-print .schedule .day-photos{order:4!important;flex:1 1 100%!important;width:100%!important;display:grid!important;grid-template-columns:repeat(4,1fr)!important;gap:2mm!important;margin:.8mm 0 0!important;padding:0!important;break-inside:avoid!important;page-break-inside:avoid!important}
+    #travel-print .schedule .day-photos .item{margin:0!important;padding:0!important;break-inside:avoid!important}
+    #travel-print .schedule .day-photos .item:nth-child(n+5){display:none!important}
+    #travel-print .schedule .day-photos img{display:block!important;width:100%!important;height:auto!important;max-height:24mm!important;object-fit:cover!important;margin:0!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    #travel-print .schedule .day-photos .item-ti{margin:.4mm 0 0!important;padding:0!important;font-size:7pt!important;line-height:1.3!important;color:#666!important;text-align:center!important}
     #travel-print .schedule .ma-sch-meta{order:4!important;flex:1 1 100%!important;display:flex!important;flex-wrap:wrap!important;gap:1.5mm 5mm!important;align-items:baseline!important;margin-top:1.2mm!important;padding:1.5mm 2.5mm!important;background:#f4f6fa!important;border:1px solid #d8e0ea!important;border-top:2px solid #c2a56f!important;border-radius:1mm!important;break-inside:avoid!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
     #travel-print .schedule .ma-sch-meta .day-food,#travel-print .schedule .ma-sch-meta .day-room{margin:0!important;padding:0!important;border:none!important;background:transparent!important;flex:1 1 auto!important;min-width:0!important}
     #travel-print .schedule .day-food{order:4!important;display:block!important;margin-top:1.2mm!important;padding:1.5mm 2.5mm!important;background:#f4f6fa!important;border:1px solid #d8e0ea!important;border-top:2px solid #c2a56f!important;border-radius:1mm!important;font-size:9.5pt!important;line-height:1.45!important;color:#444!important;break-inside:avoid!important;white-space:normal!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
@@ -84,6 +99,8 @@
     #travel-print .schedule .day-food br::after{content:" | "!important;font-size:9.5pt!important;line-height:1.45!important;color:#3c5a78!important;font-weight:400!important}
     #travel-print .schedule .day-food br:last-of-type{display:none!important}
     #travel-print .schedule .day-room{order:5!important;margin-top:1.2mm!important;padding:1.5mm 2.5mm 1.5mm 2mm!important;background:#f4f6fa!important;border:1px solid #d8e0ea!important;border-left:2px solid #c2a56f!important;border-radius:1mm!important;font-size:9.5pt!important;line-height:1.45!important;color:#444!important;break-inside:avoid!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    #travel-print .schedule:has(.day-photos) .day-food,#travel-print .schedule:has(.day-photos) .ma-sch-meta{order:5!important}
+    #travel-print .schedule:has(.day-photos) .day-room{order:6!important}
     #travel-print .schedule:has(.ma-sch-meta) .day-food,#travel-print .schedule:has(.ma-sch-meta) .day-room{order:unset!important;margin:0!important;padding:0!important;border:none!important;background:transparent!important}
     /* tca-print:schedule:end */
 }
