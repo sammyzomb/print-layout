@@ -12,16 +12,28 @@
     #ca-p *{animation:none!important;box-shadow:none!important;transition:none!important}
     #ca-p .ca-text-pop,#ca-p .ca-scroll-fade,#ca-p .ca-story-chapter .ca-animate-lines p,#ca-p .ca-scroll-fade .ca-h2,#ca-p .ca-scroll-fade .ca-impact-xl,#ca-p .ca-scroll-fade .ca-impact-sub,#ca-p .x-sf,#ca-p .x-sc .p-an p,#ca-p .x-tp{opacity:1!important;transform:none!important;filter:none!important;visibility:visible!important;letter-spacing:inherit!important}
     #ca-p .ca-hero-countries-row [data-ca-country-line],#ca-p .ca-hero-lead-block .ca-hero-lead-line,#ca-p [data-ca-country-line],#ca-p [data-ca-lead-line]{opacity:1!important;transform:none!important}
-    #ca-p .ca-hero-pattern,#ca-p .ca-fw-cine__grain,#ca-p .ca-hero-stack__shade,#ca-p .x-hpt,#ca-p .x-hsd,#ca-p .v-sl,#ca-p iframe,#ca-p #ca-yt-hover{display:none!important}
+    #ca-p .ca-hero-pattern,#ca-p .ca-fw-cine__grain,#ca-p .ca-hero-stack__shade,#ca-p .x-hpt,#ca-p .x-hsd,#ca-p .v-sl,#ca-p iframe,#ca-p #ca-yt-hover,#ca-p .z-rb-tag{display:none!important}
+    #ca-p .c-her .x-hlb,#ca-p .c-her .x-hcr{display:none!important}
+    #ca-p .c-her .x-hly:first-of-type{opacity:1!important;visibility:visible!important}
+    #ca-p .c-her .x-hcp,#ca-p .c-her .x-hcp *{opacity:1!important;visibility:visible!important;transform:none!important;-webkit-text-stroke:0!important;text-shadow:none!important}
+    #ca-p .c-her .x-hcp .x-cvm h1.c-tt{font-size:16pt!important;white-space:normal!important}
     #ca-p .ca-hero-stack,#ca-p .x-hsx{min-height:0!important;height:auto!important}
     #ca-p .ca-hero-stack__sticky,#ca-p .x-hsy{position:relative!important;top:auto!important;min-height:0!important;height:auto!important;transform:none!important}
     #ca-p .ca-hero-stack__frame,#ca-p .x-hsf{position:relative!important;left:0!important;width:100%!important;max-width:100%!important;min-height:0!important;height:auto!important;overflow:visible!important;transform:none!important}
     #ca-p .ca-hero-stack__layers,#ca-p .x-hlr{position:relative!important;transform:none!important;height:auto!important}
     #ca-p .ca-hero-stack__layer,#ca-p .x-hly{position:relative!important;inset:auto!important;opacity:1!important;width:100%!important;height:auto!important;object-fit:contain!important;display:none!important;page-break-inside:avoid;max-height:160mm!important}
     #ca-p .ca-hero-stack__layer:first-child,#ca-p .x-hly:first-child{display:block!important;opacity:1!important}
-    #ca-p .ca-hero + .ca-section,#ca-p .c-her + .c-sn{margin-top:0!important;padding-top:1.5rem!important}
+    #ca-p .c-her .x-hlr img.x-hly~img{display:none!important}
+    #ca-p .c-her,#ca-p .x-hsy{break-inside:avoid!important;page-break-inside:avoid!important}
+    #ca-p .c-her + .c-sn{margin-top:0!important;padding-top:1.5rem!important}
     #ca-p .ca-container,#ca-p .c-cn{max-width:100%!important;padding-inline:0!important}
     #ca-p .ca-section,#ca-p .c-sn{padding-block:4mm 5mm!important;border-top:1px solid #e0e6ef;break-inside:auto;page-break-inside:auto}
+    #ca-p section.ca-story-vol.c-sd{background:#0f1725!important;color:#edf2fb!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    #ca-p section.ca-story-vol.c-sd .c-bd,#ca-p section.ca-story-vol.c-sd .c-h3{color:rgba(237,242,251,.92)!important}
+    #ca-p section.ca-story-vol .u-sg.u-sd,#ca-p section.ca-story-vol .u-sg:not(.u-sd){background-color:#0f1725!important;background-image:none!important;min-height:0!important;aspect-ratio:auto!important;padding:.5rem!important}
+    #ca-p section#ca-story-tm,#ca-p section#ca-story-kg{background:#fff!important}
+    #ca-p section#ca-story-tm .u-sg:not(.u-sd),#ca-p section#ca-story-kg .u-sg:not(.u-sd){background:#f4f6fa!important;background-image:none!important}
+    #ca-p .u-sg .u-ts,#ca-p .u-sg .u-tl{color:inherit!important;text-shadow:none!important}
     #ca-p .ca-section:first-of-type,#ca-p .c-sn:first-of-type{border-top:none}
     #ca-p .ca-kicker,#ca-p .c-kk{font-size:8pt!important;color:#3c5a78!important;letter-spacing:.18em;margin-bottom:.35rem!important}
     #ca-p .ca-h2,#ca-p .c-h2{font-size:16pt!important;line-height:1.3!important;color:#0f1725!important;break-after:avoid;margin-bottom:.45rem!important}
