@@ -1,22 +1,27 @@
 /* CMN16A 列印樣式表（自動產生，請勿手改；改 print-layout.css 後重跑 build-print-css.mjs） */
-/* tca-print v3 · CMN16A 舊版 inline · 同 16 日模組（外部 cmn16a.css + 內嵌 schedule） */
+/* tca-print v3 · CMN16A 舊版 inline · 保留官網 #travel-print 標準封面 */
 @media print {
     @page{margin:12mm 14mm 15mm;size:A4}
     html,body{overflow:visible!important;background:#fff!important;font-size:12pt;height:auto!important;transform:none!important;filter:none!important}
-    body>table,#header,#footer,#sidebar,#index-float-btn,#sidebar-share-btn,#travel-newsletter,#pnote,.breadcrumb,#print-select,.slider-wrap,.departure,.wrap>.top,#travelview .main>.head,.head,a.favorite,.toolsbar,#feature h4.h4,#feature>.h4,.feature>h4.h4,#special,#map,#flight,#schedule,#remark,#information,.dvline,#travel-print>.top,#travel-print>.head,#travel-print>.description,#travel-print>.banner,#travel-print .section>.ti{display:none!important}
+    body>table,#header,#footer,#sidebar,#index-float-btn,#sidebar-share-btn,#travel-newsletter,#pnote,.breadcrumb,#print-select,.slider-wrap,.departure,.wrap>.top,#travelview .main>.head,.head,a.favorite,.toolsbar,#feature h4.h4,#feature>.h4,.feature>h4.h4,#special,#map,#flight,#schedule,#remark,#information,.dvline{display:none!important}
     #travelview,#travelview .container,#travelview .main,#travelview .wrap,#feature,#feature .content,#travel-print,#travel-print .section,#travel-print .inner{padding:0!important;margin:0!important;max-width:none!important;width:100%!important;background:#fff!important;border:none!important;box-shadow:none!important;overflow:visible!important;transform:none!important;filter:none!important}
-    #ma-r{overflow:visible!important;font-size:12pt;line-height:1.6;margin:0!important;width:100%!important;max-width:none!important;background:#fff!important;color:#2c2418!important;transform:none!important;filter:none!important}
+    #travel-print>.top{display:block!important;margin:0 0 4mm!important;padding:0 0 3mm!important;border-bottom:1px solid #ddd!important;overflow:hidden!important;break-inside:avoid!important}
+    #travel-print>.top .logo{float:left!important;width:auto!important;margin:0!important}
+    #travel-print>.top .logo img{display:block!important;width:46mm!important;height:auto!important;max-width:46mm!important}
+    #travel-print>.top .txt{float:right!important;text-align:right!important;font-size:9pt!important;line-height:1.55!important;color:#333!important;margin:0!important}
+    #travel-print>.head{display:block!important;margin:0 0 3mm!important;padding:0 0 3mm!important;border-bottom:1px solid #ddd!important;break-inside:avoid!important}
+    #travel-print>.head .title{display:block!important;margin:0 0 3mm!important;font-family:"Microsoft JhengHei",Arial,sans-serif!important;font-size:18pt!important;font-weight:700!important;line-height:1.35!important;text-align:center!important;color:#222!important}
+    #travel-print>.head .block{display:block!important;text-align:center!important;margin:0!important}
+    #travel-print>.head .no{display:inline-block!important;padding:1.5mm 5mm!important;border:1px solid #999!important;font-size:11pt!important;font-weight:700!important;color:#333!important;background:#fff!important}
+    #travel-print>.description{display:block!important;margin:0 0 3mm!important;padding:0!important;font-size:11pt!important;line-height:1.65!important;color:#333!important;text-align:center!important;break-inside:avoid!important}
+    #travel-print>.description div{margin:0 0 1.5mm!important}
+    #travel-print>.banner{display:block!important;margin:0 0 4mm!important;padding:0!important;break-inside:avoid!important;break-after:page!important}
+    #travel-print>.banner img{display:block!important;width:100%!important;height:auto!important;max-height:95mm!important;object-fit:cover!important;margin:0!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #travel-print .section>.ti{display:block!important;margin:0 0 3mm!important;padding:0 0 2mm!important;border-bottom:1px solid #ddd!important;font-size:11pt!important;font-weight:700!important;color:#333!important;break-after:avoid!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #travel-print .section>.ti img{display:none!important}
+    #ma-r{overflow:visible!important;font-size:12pt;line-height:1.6;margin:0!important;width:100%!important;max-width:none!important;background:#fff!important;color:#2c2418!important}
     #ma-r,#ma-r *{animation:none!important;box-shadow:none!important;text-shadow:none!important;transition:none!important;opacity:1!important;transform:none!important;visibility:visible!important}
-    #ma-r .ma-seo-h1,#ma-r>title,#ma-r>meta{display:none!important}
-    #ma-r .x-pfoot{display:block!important;position:fixed!important;left:0;right:0;bottom:3mm;text-align:center;font-size:8pt!important;letter-spacing:.06em;color:#8a5a18!important;background:#fff!important;border-top:1px solid #d8cdb8!important;padding:1.5mm 0 0!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-    #ma-r .ma-print-hd{display:flex!important;flex-direction:column!important;box-sizing:border-box!important;min-height:255mm!important;height:auto!important;padding:8mm 6mm 6mm!important;margin:0!important;background:#fff!important;border:none!important;break-before:avoid!important;break-after:page!important}
-    #ma-r .ma-print-hd .x-plogo{display:block!important;width:46mm!important;height:auto!important;margin:0 0 6mm!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-    #ma-r .ma-print-hd .x-hsub{color:#8a5a18!important;font-size:12pt!important;font-weight:700;letter-spacing:.04em;line-height:1.4!important;margin:0 0 2.5mm!important}
-    #ma-r .ma-print-hd .x-htt{color:#2e2418!important;font-family:"Noto Serif TC",serif;font-size:24pt!important;font-weight:700;line-height:1.3!important;margin:0 0 6mm!important}
-    #ma-r .ma-print-hd .x-pcov{display:block!important;width:100%!important;height:160mm!important;object-fit:cover!important;margin:0!important;border:1px solid #d8cdb8!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-    #ma-r .ma-print-hd .x-pcorp{display:flex!important;gap:5mm;justify-content:space-between;align-items:flex-start;margin-top:auto!important;padding-top:4mm!important;border-top:1px solid #d8cdb8!important;font-size:8.5pt!important;line-height:1.55!important;color:#444!important}
-    #ma-r .ma-print-hd .x-pco{flex:1 1 0;min-width:0}
-    #ma-r .ma-print-hd .x-pco b{display:block;color:#8a5a18!important;font-size:9.5pt!important;margin-bottom:1mm}
+    #ma-r .ma-seo-h1,#ma-r .ma-print-hd,#ma-r>title,#ma-r>meta{display:none!important}
     #ma-r>img:first-of-type{display:none!important}
     #ma-r .youtube-embed-wrapper,#ma-r .youtube-embed-wrapper *,#ma-r iframe,#ma-r embed,#ma-r object,#ma-r [src*="youtube.com"],#ma-r [src*="youtu.be"]{display:none!important;height:0!important;min-height:0!important;max-height:0!important;margin:0!important;padding:0!important;overflow:hidden!important;visibility:hidden!important;border:none!important}
     #ma-r img{display:block!important;max-width:100%!important;width:100%!important;height:auto!important;margin:0 auto 3mm!important;object-fit:contain!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
