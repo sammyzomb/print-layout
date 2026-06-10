@@ -67,21 +67,13 @@
         .c-sn:first-of-type{border-top:none}
         a{color:#2c2418!important;text-decoration:none}
     }
-    /* 每日行程（#travel-print 列印頁；需勾選「行程特色」以載入本 CSS） */
-    #travel-print .schedule{font-size:12pt!important;line-height:1.6!important;color:#333!important}
-    #travel-print .schedule .item{margin:0 0 4mm!important;padding:0 0 3mm!important;break-inside:auto!important;page-break-inside:auto!important}
-    #travel-print .schedule .item>.head{display:flex!important;gap:4mm!important;align-items:flex-start!important;margin:0 0 2.5mm!important;padding:0!important;break-after:avoid!important}
-    #travel-print .schedule .item>.head .date{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;min-width:14mm!important;padding:1mm 2mm!important;border:1px solid #999!important;font-size:9pt!important;font-weight:700!important;line-height:1.2!important;break-inside:avoid!important;background:#fff!important;color:#333!important}
-    #travel-print .schedule .item>.head .date span{display:block!important}
-    #travel-print .schedule .item>.head .content{flex:1 1 0!important;min-width:0!important}
-    #travel-print .schedule .item>.head .title{font-size:13pt!important;font-weight:700!important;line-height:1.35!important;margin:0 0 1.5mm!important;color:#2e2418!important}
-    #travel-print .schedule .item .describe,#travel-print .schedule .item .describe p,#travel-print .schedule .item .describe span,#travel-print .schedule .item .describe strong,#travel-print .schedule .item .describe b{font-size:12pt!important;line-height:1.6!important;color:#333!important;font-family:"Microsoft JhengHei",Arial,sans-serif!important}
-    #travel-print .schedule .suggest{display:block!important;margin-top:2.5mm!important;padding-top:2mm!important;border-top:1px solid #ddd!important;break-inside:avoid!important}
-    #travel-print .schedule .box.meal .gtable .td:first-child,#travel-print .schedule .box.live .gtable .td:first-child{display:none!important}
-    #travel-print .schedule .box.meal .title,#travel-print .schedule .box.live .title{display:none!important}
-    #travel-print .schedule .box.meal .gtable .tr,#travel-print .schedule .box.live .gtable .tr{display:block!important}
-    #travel-print .schedule .box.meal .content{display:flex!important;flex-direction:row!important;flex-wrap:wrap!important;gap:0 8mm!important;align-items:baseline!important;font-size:12pt!important;line-height:1.5!important;color:#333!important}
-    #travel-print .schedule .box.meal .content br{display:none!important}
-    #travel-print .schedule .box.live{margin-top:1.5mm!important;padding-left:3mm!important;border-left:2px solid #ccc!important;font-size:12pt!important;line-height:1.5!important;color:#333!important}
-    #travel-print .schedule .box.live .content{display:inline!important}
+    /* tca-print:schedule:begin */
+    #travel-print .schedule{margin:0 0 4mm!important;padding:0 0 3mm!important;font-size:12pt!important;line-height:1.6!important;color:#333!important;break-inside:auto!important;page-break-inside:auto!important}
+    #travel-print .schedule .day{display:inline-block!important;padding:1mm 2.5mm!important;border:1px solid #999!important;font-size:9pt!important;font-weight:700!important;line-height:1.2!important;margin:0 0 2mm!important;color:#333!important;break-after:avoid!important}
+    #travel-print .schedule .day-ti{font-size:13pt!important;font-weight:700!important;line-height:1.35!important;margin:0 0 1.5mm!important;color:#2e2418!important;break-after:avoid!important}
+    #travel-print .schedule .day-info,#travel-print .schedule .day-info p,#travel-print .schedule .day-info span,#travel-print .schedule .day-info strong,#travel-print .schedule .day-info b,#travel-print .schedule .day-info h3,#travel-print .schedule .day-info h4{font-size:12pt!important;line-height:1.6!important;color:#333!important;font-family:"Microsoft JhengHei",Arial,sans-serif!important}
+    #travel-print .schedule .day-food{display:flex!important;flex-direction:row!important;flex-wrap:wrap!important;gap:0 8mm!important;align-items:baseline!important;margin-top:2.5mm!important;padding-top:2mm!important;border-top:1px solid #ddd!important;font-size:12pt!important;line-height:1.5!important;color:#333!important;break-inside:avoid!important}
+    #travel-print .schedule .day-food br{display:none!important}
+    #travel-print .schedule .day-room{margin-top:1.5mm!important;padding-left:3mm!important;border-left:2px solid #ccc!important;font-size:12pt!important;line-height:1.5!important;color:#333!important;break-inside:avoid!important}
+    /* tca-print:schedule:end */
 }
