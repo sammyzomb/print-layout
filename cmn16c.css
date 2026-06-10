@@ -68,12 +68,16 @@
         a{color:#2c2418!important;text-decoration:none}
     }
     /* tca-print:schedule:begin */
-    #travel-print .schedule{margin:0 0 4mm!important;padding:0 0 3mm!important;font-size:12pt!important;line-height:1.6!important;color:#333!important;break-inside:auto!important;page-break-inside:auto!important}
+    #travel-print:has(.schedule) #ma-r .x-pfoot,#travel-print:has(.schedule) .x-pfoot{display:none!important}
+    #travel-print .schedule{margin:0 0 4mm!important;padding:0 0 3mm!important;font-size:12pt!important;line-height:1.6!important;color:#333!important;break-inside:auto!important;page-break-inside:auto!important;overflow:visible!important}
     #travel-print .schedule .day{display:inline-block!important;padding:1mm 2.5mm!important;border:1px solid #999!important;font-size:9pt!important;font-weight:700!important;line-height:1.2!important;margin:0 0 2mm!important;color:#333!important;break-after:avoid!important}
     #travel-print .schedule .day-ti{font-size:13pt!important;font-weight:700!important;line-height:1.35!important;margin:0 0 1.5mm!important;color:#2e2418!important;break-after:avoid!important}
+    #travel-print .schedule .day-info{overflow:visible!important;height:auto!important;max-height:none!important;break-inside:auto!important;page-break-inside:auto!important;orphans:3;widows:3}
     #travel-print .schedule .day-info,#travel-print .schedule .day-info p,#travel-print .schedule .day-info span,#travel-print .schedule .day-info strong,#travel-print .schedule .day-info b,#travel-print .schedule .day-info h3,#travel-print .schedule .day-info h4{font-size:12pt!important;line-height:1.6!important;color:#333!important;font-family:"Microsoft JhengHei",Arial,sans-serif!important}
-    #travel-print .schedule .day-food{display:flex!important;flex-direction:row!important;flex-wrap:wrap!important;gap:0 8mm!important;align-items:baseline!important;margin-top:2.5mm!important;padding-top:2mm!important;border-top:1px solid #ddd!important;font-size:12pt!important;line-height:1.5!important;color:#333!important;break-inside:avoid!important}
-    #travel-print .schedule .day-food br{display:none!important}
+    #travel-print .schedule .day-food{display:block!important;margin-top:2.5mm!important;padding-top:2mm!important;border-top:1px solid #ddd!important;font-size:12pt!important;line-height:1.5!important;color:#333!important;break-inside:avoid!important;white-space:normal!important}
+    #travel-print .schedule .day-food br{display:inline!important;height:0!important;line-height:0!important;font-size:0!important}
+    #travel-print .schedule .day-food br::after{content:" | "!important;font-size:12pt!important;line-height:1.5!important;color:#999!important;font-weight:400!important}
+    #travel-print .schedule .day-food br:last-of-type{display:none!important}
     #travel-print .schedule .day-room{margin-top:1.5mm!important;padding-left:3mm!important;border-left:2px solid #ccc!important;font-size:12pt!important;line-height:1.5!important;color:#333!important;break-inside:avoid!important}
     /* tca-print:schedule:end */
 }
