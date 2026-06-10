@@ -31,12 +31,9 @@
     #ca-p .ca-section,#ca-p .c-sn{padding-block:4mm 5mm!important;border-top:1px solid #e0e6ef;break-inside:auto;page-break-inside:auto}
     #ca-p .c-sd,#ca-p section.ca-story-vol.c-sd,#ca-p section.c-sd#ca-story-uz,#ca-p section.c-sd#ca-story-tj,#ca-p section.c-sd#ca-story-kz{background:#fff!important;color:#1f2937!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
     #ca-p section.ca-story-vol.c-sd .c-bd,#ca-p section.ca-story-vol.c-sd .c-h3,#ca-p .c-sd .c-bd,#ca-p .c-sd .c-h2,#ca-p .c-sd .c-h3{color:#333!important}
-    #ca-p section.ca-story-vol .u-sg.u-sd,#ca-p section.ca-story-vol .u-sg:not(.u-sd){background-color:#fff!important;background-repeat:no-repeat!important;background-position:center!important;background-size:contain!important;min-height:16mm!important;aspect-ratio:2400/400!important;padding:2mm 4mm!important;border:1px solid #3c5a78!important;box-shadow:none!important;break-inside:avoid!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
-    #ca-p #ca-story-uz .u-sg.u-sd{background-image:url(https://www.tcawg.com/data/images/202605/Casia/l1.png)!important}
-    #ca-p #ca-story-tj .u-sg.u-sd{background-image:url(https://www.tcawg.com/data/images/202605/Casia/l6.png)!important}
-    #ca-p #ca-story-kz .u-sg.u-sd{background-image:url(https://www.tcawg.com/data/images/202605/Casia/l3.png)!important}
-    #ca-p #ca-story-tm .u-sg:not(.u-sd){background-image:url(https://www.tcawg.com/data/images/202605/Casia/l2.png)!important}
-    #ca-p #ca-story-kg .u-sg:not(.u-sd){background-image:url(https://www.tcawg.com/data/images/202605/Casia/l4.png)!important}
+    #ca-p section.ca-story-vol .u-sg.u-sd,#ca-p section.ca-story-vol .u-sg:not(.u-sd){position:relative!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#fff!important;background-image:none!important;min-height:16mm!important;aspect-ratio:2400/400!important;padding:2mm 4mm!important;border:none!important;box-shadow:none!important;overflow:visible!important;break-inside:avoid!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    #ca-p .x-pfrm{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:fill!important;z-index:0!important;pointer-events:none!important;margin:0!important;padding:0!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    #ca-p .u-sg .u-tm{position:relative!important;z-index:1!important;width:100%!important;margin:0!important}
     #ca-p section#ca-story-tm,#ca-p section#ca-story-kg{background:#fff!important}
     #ca-p .c-sd .c-kk,#ca-p .c-sd .u-gc,#ca-p .u-sd .u-tl{color:#3c5a78!important}
     #ca-p .u-sd .u-ts,#ca-p .u-ts,#ca-p .i-xsd,#ca-p .c-sd .i-rl .i-xs{color:#0f1725!important;text-shadow:none!important}
