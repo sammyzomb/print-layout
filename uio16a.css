@@ -1,0 +1,141 @@
+/* UIO16A 列印樣式表 — tca-print v3 · #uio-r */
+@media print {
+    @page{margin:20mm 18mm 22mm 18mm;size:A4}
+    html,body{overflow:visible!important;background:#fff!important;font-size:12pt;height:auto!important;transform:none!important;filter:none!important}
+    body>table,#header,#footer,#sidebar,#index-float-btn,#sidebar-share-btn,#travel-newsletter,#pnote,.breadcrumb,#print-select,.slider-wrap,.departure,.wrap>.top,#travelview .main>.head,.head,a.favorite,.toolsbar,#feature h4.h4,#feature>.h4,.feature>h4.h4,#special,#map,#flight,#schedule,#remark,#information,.dvline,#travel-print>.top,#travel-print>.head,#travel-print>.description,#travel-print>.banner,#travel-print .section>.ti,#travel-print .btn-box{display:none!important}
+    #travelview,#travelview .container,#travelview .main,#travelview .wrap,#feature,#feature .content,#travel-print,#travel-print .section,#travel-print .inner{padding:0!important;margin:0!important;max-width:none!important;width:100%!important;background:#fff!important;border:none!important;box-shadow:none!important;overflow:visible!important;transform:none!important;filter:none!important;height:auto!important;max-height:none!important}
+    #travel-print .inner>img{max-width:100%!important;height:auto!important;width:auto!important}
+    #feature .content,#travel-print .inner,#travel-print .section{padding:4mm 5mm!important;box-sizing:border-box!important}
+
+    #uio-mobile-experience{display:none!important}
+
+    #travel-print .inner #uio-r,#uio-r,#uio-r[style],#feature .content #uio-r,#uio-desk,#uio-tour-main{
+        --c:#1e6b52;--gold:#e5a319;--aur:#6ecfb8;--ink:#0f1a14;--inkm:#333;--bg:#fff;--panel:#fff;
+        overflow:visible!important;overflow-x:visible!important;font-size:12pt;line-height:1.6;margin:0!important;padding:0!important;left:0!important;right:0!important;width:100%!important;max-width:none!important;transform:none!important;filter:none!important;background:#fff!important;color:#0f1a14!important;
+    }
+    #uio-r *,#uio-desk *{animation:none!important;transition:none!important;opacity:1!important;transform:none!important;visibility:visible!important;text-shadow:none!important}
+    #uio-r .hero-vimeo,#uio-r .closing-vimeo,#uio-r .closing-video,#uio-r iframe{display:none!important}
+
+    /* 列印封面 */
+    #uio-r .uio-print-cover{display:flex!important;flex-direction:column!important;box-sizing:border-box!important;min-height:255mm!important;height:auto!important;padding:10mm 8mm 8mm!important;margin:0!important;break-after:page!important;background:#fff!important;color:#0f1a14!important}
+    #uio-r .uio-print-cover .x-plogo{order:1;display:block!important;width:46mm!important;height:auto!important;margin:0 0 6mm!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #uio-r .uio-print-cover .x-hctn{order:2;display:flex!important;flex-direction:column!important;position:static!important;padding:0 4mm!important;margin:0 0 6mm!important;text-align:center!important;min-height:0!important;max-width:none!important}
+    #uio-r .uio-print-cover .x-hsub{order:1;color:#1e6b52!important;font-size:12pt!important;font-weight:700;letter-spacing:.04em;line-height:1.4!important;margin:0 0 2.5mm!important;max-width:none!important}
+    #uio-r .uio-print-cover .x-htt{order:2;color:#0f1a14!important;font-size:24pt!important;line-height:1.3!important;margin:0!important;max-width:none!important;font-weight:400!important}
+    #uio-r .uio-print-cover .x-pcov{order:3;display:block!important;width:100%!important;height:160mm!important;min-height:140mm!important;max-height:160mm!important;object-fit:cover!important;object-position:center center!important;margin:0!important;border:1px solid #c8d8d0!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #uio-r .uio-print-cover .x-pcorp{order:4;display:flex!important;gap:5mm;justify-content:space-between;align-items:flex-start;flex-shrink:0!important;margin-top:auto!important;padding-top:4mm!important;border-top:1px solid #c8d8d0!important;font-size:8.5pt!important;line-height:1.55!important;color:#444!important}
+    #uio-r .uio-print-cover .x-pco{flex:1 1 0;min-width:0}
+    #uio-r .uio-print-cover .x-pco b{display:block;color:#1e6b52!important;font-size:9.5pt!important;margin-bottom:1mm}
+
+    /* Hero */
+    #uio-r .hero{position:relative!important;aspect-ratio:auto!important;overflow:visible!important;background:#fff!important;min-height:0!important;height:auto!important;padding:0 0 5mm!important;margin:0 0 4mm!important;break-inside:avoid;page-break-inside:avoid}
+    #uio-r .hero-media{position:relative!important;inset:auto!important;height:auto!important;max-height:95mm!important;margin:0 0 3mm!important;overflow:visible!important;background:#fff!important}
+    #uio-r .hero-poster{position:relative!important;inset:auto!important;display:block!important;opacity:1!important;width:100%!important;height:auto!important;max-height:95mm!important;object-fit:cover!important;object-position:center!important;border:1px solid #c8d8d0!important;filter:none!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #uio-r .hero-in{position:relative!important;left:auto!important;top:auto!important;transform:none!important;width:100%!important;max-width:none!important;text-align:left!important;padding:0!important;margin:0 0 2mm!important}
+    #uio-r .hero-in--dock{left:auto!important;top:auto!important;transform:none!important;text-align:left!important;max-width:none!important}
+    #uio-r .hero-channel{justify-content:flex-start!important;color:#1e6b52!important;text-shadow:none!important;margin:0 0 2mm!important;font-size:9pt!important}
+    #uio-r .hero-channel::before,#uio-r .hero-channel::after{background:#e5a319!important;box-shadow:none!important;width:24px!important}
+    #uio-r .hero-badge{color:#0f1a14!important;background:#e5a319!important;box-shadow:none!important;padding:4px 12px!important;margin:0 0 2mm!important;font-size:9pt!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #uio-r .hero h1{color:#0f1a14!important;text-shadow:none!important;font-size:22pt!important;line-height:1.25!important;margin:0 0 2mm!important}
+
+    /* 通用區塊 */
+    #uio-r section,#uio-r .note-box,#uio-r .why,#uio-r .j-bridge,#uio-r .village,#uio-r .j-scene,#uio-r .chapter-zone,#uio-r .latam-zone,#uio-r .closing{position:relative!important;display:block!important;width:100%!important;max-width:none!important;overflow:visible!important;background:#fff!important;color:#0f1a14!important;padding:4mm 0!important;margin:0 0 2mm!important;box-shadow:none!important;border:none!important}
+    #uio-r .note-box::before,#uio-r .note-box::after{display:none!important}
+    #uio-r .note-box{padding:3mm 0!important;margin:0 0 3mm!important;border-top:1px solid #d8e4dc!important;border-bottom:1px solid #d8e4dc!important;background:#fff!important}
+
+    /* 深色 expedition 改淺底 */
+    #uio-r .expedition-zone{background:#fff!important;color:#0f1a14!important;padding:4mm 0!important;border-top:2px solid #1e6b52!important}
+    #uio-r .expedition-zone .s-hd h2,#uio-r .expedition-zone .sec-title h2,#uio-r .expedition-zone .field-guide-hd h2{color:#0f1a14!important}
+    #uio-r .expedition-zone .s-hd .kk,#uio-r .expedition-zone .field-label{color:#1e6b52!important}
+    #uio-r .expedition-zone .v-txt h3,#uio-r .expedition-zone .v-txt p,#uio-r .expedition-zone .v-txt .en,#uio-r .expedition-zone .field-note p,#uio-r .expedition-zone .stat-l,#uio-r .expedition-zone .spot-grid span,#uio-r .expedition-zone .island-bar p{color:#333!important}
+    #uio-r .expedition-zone .field-note,#uio-r .expedition-zone .darwin-panel,#uio-r .expedition-zone .island-bar,#uio-r .expedition-zone .guide-index{background:#f6f8f6!important;border:1px solid #d8e4dc!important}
+    #uio-r .expedition-zone .stat{background:#f6f8f6!important;border:1px solid #d8e4dc!important}
+    #uio-r .expedition-zone .stat-n{color:#1e6b52!important}
+    #uio-r .expedition-zone .v-img{background:#fff!important;border:1px solid #d8e4dc!important;padding:2mm!important;box-shadow:none!important}
+    #uio-r .expedition-zone .ocr-landmarks li{color:#1e6b52!important;border-color:#c8d8d0!important;background:#f6f8f6!important}
+    #uio-r .expedition-zone .darwin-signature{filter:none!important;opacity:1!important}
+    #uio-r .expedition-zone .darwin-quote,#uio-r .expedition-zone .darwin-name,#uio-r .expedition-zone .darwin-link{color:#333!important}
+    #uio-r .expedition-zone .darwin-quote-en{color:#1e6b52!important}
+    #uio-r .expedition-zone .guide-plate{box-shadow:none!important;background:#faf8f3!important;border:1px solid #d8e4dc!important}
+    #uio-r .expedition-zone .guide-frame{background:#fff!important}
+
+    /* Grid 重置 */
+    #uio-r .why-grid{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:3mm!important;max-width:none!important;padding:0!important}
+    #uio-r .why-card{box-shadow:none!important;border:1px solid #d8e4dc!important;padding:2mm!important;break-inside:avoid;page-break-inside:avoid;background:#faf8f3!important}
+    #uio-r .why-card:hover{transform:none!important}
+    #uio-r .v-row,#uio-r .v-row.rev{display:grid!important;grid-template-columns:1fr 1fr!important;gap:3mm!important;max-width:none!important;padding:0!important;margin:0 0 4mm!important;break-inside:avoid;page-break-inside:avoid}
+    #uio-r .v-row.rev .v-img,#uio-r .v-row.rev .v-txt{order:0!important}
+    #uio-r .expedition-zone .v-row,#uio-r .expedition-zone .v-row.rev{grid-template-columns:1.1fr .9fr!important}
+    #uio-r .v-img{position:relative!important;padding:2mm!important;box-shadow:none!important;background:#fff!important;border:1px solid #d8e4dc!important;overflow:visible!important}
+    #uio-r .v-img img{width:100%!important;height:auto!important;max-height:52mm!important;object-fit:cover!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #uio-r .v-img .v-cap{position:relative!important;left:auto!important;right:auto!important;bottom:auto!important;background:transparent!important;color:#333!important;padding:1mm 0 0!important;font-size:8pt!important}
+    #uio-r .v-txt h3{font-size:14pt!important;color:#0f1a14!important;margin:0 0 1mm!important}
+    #uio-r .v-txt .en{font-size:9pt!important;color:#1e6b52!important;margin:0 0 2mm!important}
+    #uio-r .v-txt p{font-size:10.5pt!important;line-height:1.65!important;color:#333!important}
+
+    #uio-r .j-bridge{width:100%!important;margin:0 0 3mm!important;max-width:none!important;margin-left:0!important;margin-right:0!important}
+    #uio-r .j-bridge::before{display:none!important}
+    #uio-r .j-bridge img{width:100%!important;height:auto!important;max-height:72mm!important;object-fit:cover!important;transform:none!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #uio-r .j-bridge-cap{position:relative!important;left:auto!important;bottom:auto!important;background:transparent!important;color:#0f1a14!important;padding:1mm 0 0!important;border-left:2px solid #e5a319!important;font-size:10pt!important;backdrop-filter:none!important}
+
+    #uio-r .stat-row{display:grid!important;grid-template-columns:repeat(4,1fr)!important;gap:2mm!important;max-width:none!important;padding:0!important;margin:0 0 3mm!important}
+    #uio-r .stat{break-inside:avoid;padding:2mm!important}
+    #uio-r .darwin-panel-grid{display:grid!important;grid-template-columns:minmax(30mm,40mm) 1fr minmax(40mm,50mm)!important;gap:3mm!important}
+    #uio-r .guide-grid{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:2mm!important}
+    #uio-r .guide-plate{break-inside:avoid;padding:2mm!important}
+    #uio-r .guide-plate:hover{transform:none!important}
+    #uio-r .guide-frame img{max-height:38mm!important;object-fit:cover!important}
+    #uio-r .spot-grid,#uio-r .spot-grid--6{display:grid!important;grid-template-columns:repeat(4,1fr)!important;gap:2mm!important;margin:2mm 0!important}
+    #uio-r .spot-grid--6{grid-template-columns:repeat(3,1fr)!important}
+    #uio-r .spot-grid img{max-height:32mm!important;object-fit:cover!important;border:1px solid #d8e4dc!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #uio-r .spot-grid li:hover img{transform:none!important}
+    #uio-r .spot-grid span{font-size:8pt!important;color:#333!important;margin-top:1mm!important}
+    #uio-r .promo-grid{display:grid!important;grid-template-columns:repeat(2,1fr)!important;gap:2mm!important}
+    #uio-r .promo-thumbs{display:grid!important;grid-template-columns:repeat(4,1fr)!important;gap:2mm!important;max-width:none!important;margin:2mm 0!important}
+    #uio-r .promo-thumbs img{max-height:28mm!important;object-fit:cover!important;aspect-ratio:auto!important}
+    #uio-r .promo-thumbs .pt-cap{font-size:7.5pt!important;padding:1mm!important}
+    #uio-r .j-nature .n-grid{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:2mm!important}
+    #uio-r .n-card{box-shadow:none!important;border:1px solid #d8e4dc!important;break-inside:avoid}
+    #uio-r .n-card img{max-height:36mm!important;object-fit:cover!important}
+    #uio-r .eco-grid{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:2mm!important}
+
+    /* LATAM */
+    #uio-r .latam-zone{background:#fff!important;padding:4mm 0!important}
+    #uio-r .latam-card{display:grid!important;grid-template-columns:1fr 1fr!important;gap:3mm!important;box-shadow:none!important;border:1px solid #d8e4dc!important;break-inside:avoid}
+    #uio-r .latam-visual{background:#e8eef0!important;min-height:0!important}
+    #uio-r .latam-visual img{max-height:52mm!important;object-fit:contain!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #uio-r .latam-visual-cap{position:relative!important;background:transparent!important;color:#333!important;padding:1mm 0 0!important;font-size:8pt!important}
+    #uio-r .latam-body{border-left:2px solid #1e6b52!important;padding:2mm 3mm!important}
+    #uio-r .latam-award{background:#f6f8f6!important;border:1px solid #d8e4dc!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+
+    /* 結尾 */
+    #uio-r .closing{background:#fff!important;padding:3mm 0!important}
+    #uio-r .closing .mark{color:#1e6b52!important;font-size:14pt!important;margin:0!important;text-shadow:none!important}
+    #uio-r .closing .mark::before,#uio-r .closing .mark::after{color:#ccc!important}
+
+    #uio-r .s-hd{max-width:none!important;padding:0 0 3mm!important;text-align:left!important}
+    #uio-r .s-hd h2{font-size:18pt!important;text-align:left!important}
+    #uio-r .s-hd h2::after{margin:2mm 0 0!important;width:32px!important}
+    #uio-r .s-hd p{font-size:10.5pt!important;max-width:none!important;text-align:left!important}
+    #uio-r .ep-bar{padding:2mm 0!important;max-width:none!important}
+    #uio-r .ep-num{font-size:18pt!important;color:#e5a319!important}
+    #uio-r .ep-title{font-size:9pt!important;color:#1e6b52!important}
+    #uio-r .kk{font-size:8pt!important;color:#1e6b52!important}
+    #uio-r .rn{font-size:11pt!important;color:#b8860b!important}
+    #uio-r img,#uio-r svg{display:block!important;max-width:100%!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #uio-r a{color:#0f1a14!important;text-decoration:none!important}
+
+    /* tca-print:schedule:begin — 與 print-layout 共用 */
+    #travel-print:has(.schedule) .x-pfoot{display:none!important}
+    #travel-print .section .inner>.schedule:first-of-type::before{content:"DAILY ITINERARY · 每日行程";display:block!important;font-family:"Cormorant Garamond",Georgia,serif!important;font-size:8pt!important;letter-spacing:.22em!important;color:#1e6b52!important;margin:0 0 3mm!important;padding:0 0 1.5mm!important;border-bottom:2px solid #e5a319!important;break-after:avoid!important}
+    #travel-print .schedule{display:flex!important;flex-wrap:wrap!important;align-items:baseline!important;gap:1.2mm 3.5mm!important;margin:0!important;padding:3mm 0 3.5mm!important;border-bottom:1px solid #d8e4dc!important;font-size:10.5pt!important;line-height:1.52!important;color:#0f1a14!important;break-inside:auto!important;page-break-inside:auto!important;overflow:visible!important}
+    #travel-print .schedule .day{order:1!important;flex:0 0 auto!important;display:inline-block!important;margin:0!important;padding:1.4mm 4.5mm!important;border-radius:1.2mm!important;font-size:13pt!important;font-weight:700!important;color:#fff!important;background:#1e6b52!important;white-space:nowrap!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    #travel-print .schedule .day-ti{order:2!important;flex:1 1 55%!important;font-size:11.5pt!important;font-weight:700!important;color:#0f1a14!important}
+    #travel-print .schedule .day-info{order:3!important;flex:1 1 100%!important;width:100%!important;margin:.5mm 0 0!important;font-size:10.5pt!important;line-height:1.52!important;color:#333!important}
+    #travel-print .schedule .day-photos{order:4!important;flex:0 0 100%!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:2.5mm!important;margin:.8mm 0 0!important}
+    #travel-print .schedule .day-photos .item:nth-child(n+5){display:none!important}
+    #travel-print .schedule .day-photos .item{width:100%!important;max-width:none!important;float:none!important;display:block!important}
+    #travel-print .schedule .day-photos img{width:100%!important;max-width:100%!important;min-width:0!important;height:auto!important;max-height:38mm!important;display:block!important;object-fit:cover!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    #travel-print .schedule .day-food,#travel-print .schedule .day-room{margin-top:1.2mm!important;padding:1.5mm 2.5mm!important;background:#f6f8f6!important;border:1px solid #d8e4dc!important;border-top:2px solid #e5a319!important;font-size:9.5pt!important;line-height:1.45!important;color:#444!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    /* tca-print:schedule:end */
+}
