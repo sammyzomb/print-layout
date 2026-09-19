@@ -122,7 +122,7 @@
     #uio-r .ep-title{font-size:9pt!important;color:#1e6b52!important}
     #uio-r .kk{font-size:8pt!important;color:#1e6b52!important}
     #uio-r .rn{font-size:11pt!important;color:#b8860b!important}
-    #uio-r img,#uio-r svg{display:block!important;max-width:100%!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #uio-r img,#uio-r svg{display:block!important;max-width:100%!important;visibility:visible!important;opacity:1!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
     #uio-r a{color:#0f1a14!important;text-decoration:none!important}
 
     /* tca-print:schedule:begin — 與 print-layout 共用 */
