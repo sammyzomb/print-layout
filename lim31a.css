@@ -5,7 +5,9 @@
     html,body{overflow:visible!important;background:#fff!important;font-size:12pt;height:auto!important;transform:none!important;filter:none!important}
     body>table,#header,#footer,#sidebar,#index-float-btn,#sidebar-share-btn,#travel-newsletter,#pnote,.breadcrumb,#print-select,.slider-wrap,.departure,.wrap>.top,#travelview .main>.head,.head,a.favorite,.toolsbar,#feature h4.h4,#feature>.h4,.feature>h4.h4,#special,#map,#flight,#schedule,#remark,#information,.dvline,#travel-print>.top,#travel-print>.head,#travel-print>.description,#travel-print>.banner,#travel-print .section>.ti,#travel-print .btn-box{display:none!important}
     #travelview,#travelview .container,#travelview .main,#travelview .wrap,#feature,#feature .content,#travel-print,#travel-print .section,#travel-print .inner{padding:0!important;margin:0!important;max-width:none!important;width:100%!important;background:#fff!important;border:none!important;box-shadow:none!important;overflow:visible!important;transform:none!important;filter:none!important;height:auto!important;max-height:none!important}
-    #travel-print .inner>img{max-width:100%!important;height:auto!important;width:auto!important}
+    /* 列印行程地圖：完整顯示，勿裁切（對齊 cai12a） */
+    #travel-print .section .inner{overflow:visible!important;height:auto!important;max-height:none!important}
+    #travel-print .inner>img{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center top!important;margin:0 0 4mm!important;break-inside:avoid!important;page-break-inside:avoid!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
     #feature .content,#travel-print .inner,#travel-print .section{padding:4mm 5mm!important;box-sizing:border-box!important}
 
     /* ── 列印封面 ── */
@@ -25,8 +27,8 @@
     #feature .content>h2:first-of-type strong,#travel-print .inner>h2:first-of-type strong{font-weight:700!important}
     #feature .content>p,#travel-print .inner>p{font-family:"Microsoft JhengHei",Arial,sans-serif!important;font-size:11pt!important;line-height:1.65!important;color:#333!important;margin:0 0 3mm!important;orphans:2;widows:2;max-width:none!important}
     #feature .content>p span,#travel-print .inner>p span{font-size:inherit!important;color:#333!important}
-    #feature .content>img,#travel-print .inner>img{display:block!important;width:100%!important;height:auto!important;max-height:52mm!important;object-fit:cover!important;object-position:center!important;margin:0 0 3mm!important;break-inside:avoid;page-break-inside:avoid;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-    #feature .content>img[alt*="拼圖"],#feature .content>img:first-of-type,#travel-print .inner>img:first-of-type{max-height:72mm!important}
+    #feature .content>img{display:block!important;width:100%!important;height:auto!important;max-height:52mm!important;object-fit:cover!important;object-position:center!important;margin:0 0 3mm!important;break-inside:avoid;page-break-inside:avoid;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #feature .content>img[alt*="拼圖"],#feature .content>img:first-of-type{max-height:72mm!important}
 
     /* ── 寰宇盛宴 lim-dine ── */
     .lim-dine-wrap,.lim-dine-wrap[style]{
