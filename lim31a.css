@@ -1,7 +1,7 @@
 /* LIM31A 列印樣式表 · 南美洲六國32日 · lim-dine-wrap */
 /* tca-print v3 · 與 CAI12A / print-layout 共用 CMS 列印架構 */
 @media print {
-    @page{margin:20mm 18mm 22mm 18mm;size:A4}
+    @page{margin:7mm 18mm 7mm 18mm;size:A4}
     html,body{overflow:visible!important;background:#fff!important;font-size:12pt;height:auto!important;transform:none!important;filter:none!important}
     body>table,#header,#footer,#sidebar,#index-float-btn,#sidebar-share-btn,#travel-newsletter,#pnote,.breadcrumb,#print-select,.slider-wrap,.departure,.wrap>.top,#travelview .main>.head,.head,a.favorite,.toolsbar,#feature h4.h4,#feature>.h4,.feature>h4.h4,#special,#map,#flight,#schedule,#remark,#information,.dvline,#travel-print>.top,#travel-print>.head,#travel-print>.description,#travel-print>.banner,#travel-print .section>.ti,#travel-print .btn-box{display:none!important}
     #travelview,#travelview .container,#travelview .main,#travelview .wrap,#feature,#feature .content,#travel-print,#travel-print .section,#travel-print .inner{padding:0!important;margin:0!important;max-width:none!important;width:100%!important;background:#fff!important;border:none!important;box-shadow:none!important;overflow:visible!important;transform:none!important;filter:none!important;height:auto!important;max-height:none!important}
@@ -10,9 +10,10 @@
     #travel-print .inner>img,#travel-print .inner>img.img-responsive{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;max-height:none!important;min-height:0!important;object-fit:contain!important;object-position:center top!important;margin:0 0 4mm!important;break-inside:avoid!important;page-break-inside:avoid!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
     #travel-print .section .inner>span{display:block!important;font-size:10.5pt!important;line-height:1.55!important;color:#333!important;margin:2mm 0 4mm!important}
     #feature .content,#travel-print .inner,#travel-print .section{padding:4mm 5mm!important;box-sizing:border-box!important}
+    #feature .content:has(> .lim-print-cover),#travel-print .inner:has(> .lim-print-cover){padding:0!important}
 
-    /* ── 列印封面：圖片上下置中，三間分公司聯絡資訊靠下 ── */
-    .lim-print-cover{display:flex!important;flex-direction:column!important;box-sizing:border-box!important;height:255mm!important;min-height:255mm!important;max-height:255mm!important;overflow:hidden!important;padding:7mm 8mm 7mm!important;margin:0!important;break-after:page!important;page-break-after:always!important;background:#fff!important;color:#2c2418!important}
+    /* ── 列印封面：圖片上下置中，三間分公司聯絡資訊靠下（@page 已留上下 7mm） ── */
+    .lim-print-cover{display:flex!important;flex-direction:column!important;box-sizing:border-box!important;height:283mm!important;min-height:283mm!important;max-height:283mm!important;overflow:hidden!important;padding:0 8mm 0!important;margin:0!important;break-after:page!important;page-break-after:always!important;background:#fff!important;color:#2c2418!important}
     .lim-print-cover .x-plogo{order:1;display:block!important;width:46mm!important;height:auto!important;margin:0 0 5mm!important;flex-shrink:0!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
     .lim-print-cover .x-hctn{display:none!important}
     .lim-print-cover .x-hsub{order:2;display:block!important;flex-shrink:0!important;text-align:center!important;color:#2980b9!important;font-size:12pt!important;font-weight:700;letter-spacing:.04em;line-height:1.4!important;margin:0 0 3mm!important;max-width:none!important}
