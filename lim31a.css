@@ -8,7 +8,7 @@
     /* 列印行程地圖：完整顯示，勿裁切（對齊 cai12a） */
     #travel-print .section .inner{overflow:visible!important;height:auto!important;max-height:none!important}
     #travel-print .inner>img,#travel-print .inner>img.img-responsive{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;max-height:none!important;min-height:0!important;object-fit:contain!important;object-position:center top!important;margin:0 0 4mm!important;break-inside:avoid!important;page-break-inside:avoid!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-    #travel-print:has(.schedule) .section .inner>span{display:none!important}
+    #travel-print .section .inner>span{display:block!important;font-size:10.5pt!important;line-height:1.55!important;color:#333!important;margin:2mm 0 4mm!important}
     #feature .content,#travel-print .inner,#travel-print .section{padding:4mm 5mm!important;box-sizing:border-box!important}
 
     /* ── 列印封面 ── */
