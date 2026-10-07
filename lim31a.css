@@ -1,0 +1,98 @@
+/* LIM31A 列印樣式表 · 南美洲六國32日 · lim-dine-wrap */
+/* tca-print v3 · 與 CAI12A / print-layout 共用 CMS 列印架構 */
+@media print {
+    @page{margin:20mm 18mm 22mm 18mm;size:A4}
+    html,body{overflow:visible!important;background:#fff!important;font-size:12pt;height:auto!important;transform:none!important;filter:none!important}
+    body>table,#header,#footer,#sidebar,#index-float-btn,#sidebar-share-btn,#travel-newsletter,#pnote,.breadcrumb,#print-select,.slider-wrap,.departure,.wrap>.top,#travelview .main>.head,.head,a.favorite,.toolsbar,#feature h4.h4,#feature>.h4,.feature>h4.h4,#special,#map,#flight,#schedule,#remark,#information,.dvline,#travel-print>.top,#travel-print>.head,#travel-print>.description,#travel-print>.banner,#travel-print .section>.ti,#travel-print .btn-box{display:none!important}
+    #travelview,#travelview .container,#travelview .main,#travelview .wrap,#feature,#feature .content,#travel-print,#travel-print .section,#travel-print .inner{padding:0!important;margin:0!important;max-width:none!important;width:100%!important;background:#fff!important;border:none!important;box-shadow:none!important;overflow:visible!important;transform:none!important;filter:none!important;height:auto!important;max-height:none!important}
+    #travel-print .inner>img{max-width:100%!important;height:auto!important;width:auto!important}
+    #feature .content,#travel-print .inner,#travel-print .section{padding:4mm 5mm!important;box-sizing:border-box!important}
+
+    /* ── 列印封面 ── */
+    .lim-print-cover{display:flex!important;flex-direction:column!important;box-sizing:border-box!important;min-height:255mm!important;height:auto!important;padding:10mm 8mm 8mm!important;margin:0!important;break-after:page!important;page-break-after:always!important;background:#fff!important;color:#2c2418!important}
+    .lim-print-cover .x-plogo{order:1;display:block!important;width:46mm!important;height:auto!important;margin:0 0 6mm!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .lim-print-cover .x-hctn{order:2;display:flex!important;flex-direction:column!important;position:static!important;padding:0 4mm!important;margin:0 0 6mm!important;text-align:center!important;min-height:0!important;max-width:none!important}
+    .lim-print-cover .x-hsub{order:1;color:#2980b9!important;font-size:12pt!important;font-weight:700;letter-spacing:.04em;line-height:1.4!important;margin:0 0 2.5mm!important;max-width:none!important}
+    .lim-print-cover .x-htt{order:2;color:#2e2418!important;font-size:22pt!important;line-height:1.3!important;margin:0!important;max-width:none!important;font-weight:700!important}
+    .lim-print-cover .x-pcov{order:3;display:block!important;width:100%!important;height:160mm!important;min-height:140mm!important;max-height:160mm!important;object-fit:cover!important;object-position:center center!important;margin:0!important;border:1px solid #d8cdb8!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .lim-print-cover .x-pcorp{order:4;display:flex!important;gap:5mm;justify-content:space-between;align-items:flex-start;flex-shrink:0!important;margin-top:auto!important;padding-top:4mm!important;border-top:1px solid #d8cdb8!important;font-size:8.5pt!important;line-height:1.55!important;color:#444!important}
+    .lim-print-cover .x-pco{flex:1 1 0;min-width:0}
+    .lim-print-cover .x-pco b{display:block;color:#2980b9!important;font-size:9.5pt!important;margin-bottom:1mm}
+
+    /* ── 行程特色引文 ── */
+    #feature .content>h2:first-of-type,#travel-print .inner>h2:first-of-type{break-after:avoid!important;font-size:18pt!important;line-height:1.35!important;text-align:center!important;color:#2e2418!important;margin:0 0 4mm!important}
+    #feature .content>h2:first-of-type span,#travel-print .inner>h2:first-of-type span{font-size:inherit!important;color:inherit!important;background:transparent!important}
+    #feature .content>h2:first-of-type strong,#travel-print .inner>h2:first-of-type strong{font-weight:700!important}
+    #feature .content>p,#travel-print .inner>p{font-family:"Microsoft JhengHei",Arial,sans-serif!important;font-size:11pt!important;line-height:1.65!important;color:#333!important;margin:0 0 3mm!important;orphans:2;widows:2;max-width:none!important}
+    #feature .content>p span,#travel-print .inner>p span{font-size:inherit!important;color:#333!important}
+    #feature .content>img,#travel-print .inner>img{display:block!important;width:100%!important;height:auto!important;max-height:52mm!important;object-fit:cover!important;object-position:center!important;margin:0 0 3mm!important;break-inside:avoid;page-break-inside:avoid;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #feature .content>img[alt*="拼圖"],#feature .content>img:first-of-type,#travel-print .inner>img:first-of-type{max-height:72mm!important}
+
+    /* ── 寰宇盛宴 lim-dine ── */
+    .lim-dine-wrap,.lim-dine-wrap[style]{
+        --lim-gold:#b87a2a;--lim-ink:#2c2418;--lim-muted:#444;
+        overflow:visible!important;font-size:12pt;line-height:1.6;margin:0!important;margin-left:0!important;margin-right:0!important;padding:5mm 0 0!important;left:0!important;right:0!important;width:100%!important;max-width:none!important;transform:none!important;filter:none!important;background:#fff!important;color:#2c2418!important;
+    }
+    .lim-dine-wrap *{animation:none!important;box-shadow:none!important;text-shadow:none!important;transition:none!important;opacity:1!important;transform:none!important;visibility:visible!important}
+    .lim-dine-wrap .lim-yt-carousel,.lim-dine-wrap .lim-yt-carousel__player,.lim-dine-wrap .youtube-embed-wrapper,.lim-dine-wrap iframe[src*="youtube"],.lim-dine-wrap iframe[src*="youtu.be"],.lim-dine-wrap script{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important}
+    .lim-dine-wrap .lim-dine-banner__bg,.lim-dine-wrap .lim-dine-banner__overlay,.lim-dine-wrap .lim-dine-spotlight__dots,.lim-dine-wrap .lim-dine-hero__note{display:none!important}
+    .lim-dine-container{max-width:none!important;padding:0!important;margin:0!important}
+    .lim-dine-banner{position:relative!important;aspect-ratio:auto!important;min-height:0!important;height:auto!important;margin:0 0 5mm!important;border-radius:0!important;overflow:visible!important;break-inside:avoid;page-break-inside:avoid}
+    .lim-dine-banner__inner{position:relative!important;background:#faf8f2!important;border:1px solid #e8dcc8!important;border-top:2px solid #b87a2a!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;padding:4mm 5mm!important;animation:none!important}
+    .lim-dine-banner__line{display:none!important}
+    .lim-dine-banner__title{flex-direction:column!important;gap:2mm!important;font-size:16pt!important;letter-spacing:.12em!important;color:#2e2418!important;margin:0 0 2mm!important}
+    .lim-dine-banner__title-circles{display:none!important}
+    .lim-dine-banner__title-text{display:block!important;font-size:15pt!important;color:#2e2418!important}
+    .lim-dine-banner__sub{font-size:10.5pt!important;line-height:1.65!important;color:#444!important;max-width:none!important;margin:0!important}
+    .lim-dine-intro{margin:0 0 5mm!important;break-inside:avoid}
+    .lim-dine-intro .lim-dine-img{max-height:55mm!important;object-fit:cover!important;margin:0 0 2.5mm!important;border-radius:0!important;border:1px solid #e0d6c8!important}
+    .lim-dine-divider{margin:5mm 0 4mm!important;break-after:avoid!important}
+    .lim-dine-divider__circles{display:none!important}
+    .lim-dine-divider__label{font-size:12pt!important;letter-spacing:.18em!important;color:#6B5A42!important;padding:0!important}
+    .lim-dine-divider__label::before,.lim-dine-divider__label::after{width:24px!important}
+    .lim-dine-card{padding:0 0 5mm!important;margin:0 0 5mm!important;border-bottom:1px solid #e8dcc8!important;break-inside:auto;page-break-inside:auto}
+    .lim-dine-card:last-of-type{border-bottom:none!important;margin-bottom:0!important}
+    .lim-dine-spotlight{display:grid!important;grid-template-columns:38% 1fr!important;gap:3mm!important;align-items:start!important;min-height:0!important;margin:0 0 3mm!important;overflow:visible!important;border-radius:0!important;box-shadow:none!important;break-inside:avoid;page-break-inside:avoid}
+    .lim-dine-spotlight__photo{position:relative!important;flex:none!important;min-height:0!important;clip-path:none!important;width:100%!important;overflow:visible!important}
+    .lim-dine-spotlight__main{width:100%!important;height:auto!important;min-height:0!important;max-height:42mm!important;object-fit:cover!important;display:block!important;border:1px solid #e0d6c8!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .lim-dine-spotlight__panel{flex:none!important;margin-left:0!important;padding:0 0 0 2mm!important;background:#fff!important}
+    .lim-dine-spotlight__circles{margin-bottom:2mm!important;gap:2mm!important}
+    .lim-dine-spotlight__char{width:9mm!important;height:9mm!important;box-shadow:none!important}
+    .lim-dine-spotlight__char>span{font-size:14pt!important}
+    .lim-dine-spotlight__char::after{inset:2px!important}
+    .lim-dine-spotlight__note{position:relative!important;display:block!important;margin:0 0 2mm!important;font-size:8pt!important;line-height:1.45!important;background:#faf8f2!important;color:#666!important;border:1px solid #e8dcc8!important;padding:1.5mm 2mm!important}
+    .lim-dine-card__loc{font-size:9pt!important;letter-spacing:.16em!important;color:#8a5a18!important;margin-bottom:1.5mm!important}
+    .lim-dine-card__title{font-size:13pt!important;line-height:1.3!important;color:#2e2418!important;margin-bottom:1.5mm!important}
+    .lim-dine-card__title::after{width:36px!important;height:1px!important;margin-top:1.5mm!important}
+    .lim-dine-card__tagline{font-size:10.5pt!important;line-height:1.55!important;color:#333!important;margin-top:1mm!important}
+    .lim-dine-highlight{font-size:11pt!important;letter-spacing:.12em!important;color:#8a5a18!important;margin:0 0 2mm!important;text-align:left!important;width:100%!important}
+    .lim-dine-highlight::after{margin-left:0!important;width:36px!important}
+    .lim-dine-body{font-size:10.5pt!important;line-height:1.6!important;color:#333!important;margin:0 0 2mm!important;text-align:left!important}
+    .lim-dine-list{margin:0 0 3mm!important;padding:0!important;font-size:10pt!important;line-height:1.55!important;color:#333!important;break-inside:avoid}
+    .lim-dine-list li{margin-bottom:1.5mm!important;padding-left:4mm!important}
+    .lim-dine-list li::before{width:2mm!important;height:2mm!important;top:.55em!important}
+    .lim-dine-thumbs{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:2mm!important;margin:2mm 0 0!important;break-inside:avoid;page-break-inside:avoid}
+    .lim-dine-thumbs__item{flex:none!important;min-width:0!important}
+    .lim-dine-thumbs .lim-dine-img,.lim-dine-thumbs img{width:100%!important;height:auto!important;max-height:32mm!important;object-fit:cover!important;border-radius:0!important;border:1px solid #e0d6c8!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .lim-dine-img{border-radius:0!important;box-shadow:none!important}
+    .lim-dine-reveal{opacity:1!important;transform:none!important}
+    .lim-dine-wrap img{display:block!important;max-width:100%!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .lim-dine-wrap a{color:#2c2418!important;text-decoration:none!important}
+
+    /* ── YouTube 輪播／嵌入：列印時全部隱藏 ── */
+    .lim-yt-carousel,.lim-yt-carousel__player,.lim-dine-card .lim-yt-carousel,.youtube-embed-wrapper,#feature .content .lim-yt-carousel,#feature .content .youtube-embed-wrapper,#travel-print .inner .lim-yt-carousel,#travel-print .inner .youtube-embed-wrapper,#feature .content iframe[src*="youtube"],#feature .content iframe[src*="youtu.be"],#travel-print .inner iframe[src*="youtube"],#travel-print .inner iframe[src*="youtu.be"]{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;min-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important;break-inside:avoid!important;page-break-inside:avoid!important}
+
+    /* tca-print:schedule:begin */
+    #travel-print:has(.schedule) .lim-print-cover .x-pfoot,#travel-print:has(.schedule) .x-pfoot{display:none!important}
+    #travel-print .section .inner>.schedule:first-of-type::before{content:"DAILY ITINERARY · 每日行程";display:block!important;font-family:"Cormorant Garamond",Georgia,serif!important;font-size:8pt!important;letter-spacing:.22em!important;color:#8a5a18!important;margin:0 0 3mm!important;padding:0 0 1.5mm!important;border-bottom:2px solid #b87a2a!important;break-after:avoid!important}
+    #travel-print .schedule{display:flex!important;flex-wrap:wrap!important;align-items:baseline!important;gap:1.2mm 3.5mm!important;margin:0!important;padding:3mm 0 3.5mm!important;border-bottom:1px solid #e0d6c8!important;font-size:10.5pt!important;line-height:1.52!important;color:#2c2418!important;break-inside:auto!important;page-break-inside:auto!important;overflow:visible!important}
+    #travel-print .schedule .day{order:1!important;flex:0 0 auto!important;display:inline-block!important;margin:0!important;padding:1.4mm 4.5mm!important;border-radius:1.2mm!important;font-size:13pt!important;font-weight:700!important;color:#fff!important;background:#b87a2a!important;white-space:nowrap!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    #travel-print .schedule .day-ti{order:2!important;flex:1 1 55%!important;font-size:11.5pt!important;font-weight:700!important;color:#2e2418!important}
+    #travel-print .schedule .day-info{order:3!important;flex:1 1 100%!important;width:100%!important;margin:.5mm 0 0!important;font-size:10.5pt!important;line-height:1.52!important;color:#333!important}
+    #travel-print .schedule .day-photos{order:4!important;flex:0 0 100%!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:2.5mm!important;margin:.8mm 0 0!important}
+    #travel-print .schedule .day-photos .item:nth-child(n+5){display:none!important}
+    #travel-print .schedule .day-photos .item{width:100%!important;max-width:none!important;float:none!important;display:block!important}
+    #travel-print .schedule .day-photos img{width:100%!important;max-width:100%!important;min-width:0!important;height:auto!important;max-height:38mm!important;display:block!important;object-fit:cover!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    #travel-print .schedule .day-food,#travel-print .schedule .day-room{margin-top:1.2mm!important;padding:1.5mm 2.5mm!important;background:#faf8f2!important;border:1px solid #e8dcc8!important;border-top:2px solid #b87a2a!important;font-size:9.5pt!important;line-height:1.45!important;color:#444!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+    /* tca-print:schedule:end */
+}
